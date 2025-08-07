@@ -693,40 +693,60 @@
 
   const normalize = (str) => str.trim().toLowerCase();
 
-  const cjGames = [
-    "the impossible quiz",
-    "subway surfers",
-    "stack",
-    "run 3",
-    "watermelon drop"
-  ].map(normalize);
-
-  const jmGames = [
-    "cluster rush",
-    "level devil - not a troll game",
-    "moto road rash 3d",
-    "slope",
-    "traffic run 3d",
-    "stack",
-    "ragdoll archers",
-    "shell jump",
-    "drift boss",
-    "the impossible quiz",
-    "house of harzards",
-    "stickman fight ragdoll",
-    "stick merge",
-    "deal or no deal",
-    "dreadhead parkour",
-    "cookie clicker"
-  ].map(normalize);
-
-  const jkGames = [...jmGames]; // Same list as jmGames
-
-  const caylenAndJaxtonGames = [
-    "eggy car",
-    "retro bowl",
-    "idle mining empire"
-  ].map(normalize);
+  const triggers = {
+    "cj": [
+      "the impossible quiz",
+      "subway surfers",
+      "stack",
+      "run 3",
+      "watermelon drop"
+    ],
+    "jm": [
+      "cluster rush",
+      "level devil - not a troll game",
+      "moto road rash 3d",
+      "slope",
+      "traffic run 3d",
+      "stack",
+      "ragdoll archers",
+      "shell jump",
+      "drift boss",
+      "the impossible quiz",
+      "house of harzards",
+      "stickman fight ragdoll",
+      "stick merge",
+      "deal or no deal",
+      "dreadhead parkour",
+      "cookie clicker"
+    ],
+    "jk": [
+      "cluster rush",
+      "level devil - not a troll game",
+      "moto road rash 3d",
+      "slope",
+      "traffic run 3d",
+      "stack",
+      "ragdoll archers",
+      "shell jump",
+      "drift boss",
+      "the impossible quiz",
+      "house of harzards",
+      "stickman fight ragdoll",
+      "stick merge",
+      "deal or no deal",
+      "dreadhead parkour",
+      "cookie clicker"
+    ],
+    "caylen and jaxton": [
+      "eggy car",
+      "retro bowl",
+      "idle mining empire"
+    ],
+    "hayden": [
+      "geometry dash",
+      "red ball 4"
+    ]
+  };
 
   searchBar.addEventListener("input", function () {
     const query = normalize(searchBar.value);
@@ -734,16 +754,9 @@
     gameCards.forEach((card) => {
       const title = normalize(card.querySelector("h3").textContent);
 
-      if (query === "cj") {
-        card.style.display = cjGames.includes(title) ? "" : "none";
-      } else if (query === "jm") {
-        card.style.display = jmGames.includes(title) ? "" : "none";
-      } else if (query === "jk") {
-        card.style.display = jkGames.includes(title) ? "" : "none";
-      } else if (query === "caylen and jaxton") {
-        card.style.display = caylenAndJaxtonGames.includes(title) ? "" : "none";
+      if (triggers[query]) {
+        card.style.display = triggers[query].includes(title) ? "" : "none";
       } else {
-        // Normal search
         card.style.display = title.includes(query) ? "" : "none";
       }
     });
