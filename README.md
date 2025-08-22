@@ -140,7 +140,7 @@ https://storage.googleapis.com/test-41376.appspot.com/obby.html
 
 https://fridaynightfunkinweek7.github.io/
 
-https://just-fall-online.github.io/file/
+https://crossy-road.gitlab.io/file/
 
 https://narrow-one.github.io/n/top-speed-racing-3d/
 
