@@ -280,6 +280,28 @@ https://ubg42.github.io/file/Papas_Freezeria.html
 
 https://ubg42.github.io/file/Papas_Pizzeria.html
 
+https://ubg42.github.io/Game/Papas_Bakeria.html
+
+https://ubg42.github.io/Game/Papas_Burgeria.html
+
+https://ubg42.github.io/Game/Papas_Cupcakeria.html
+
+https://ubg42.github.io/Game/Papas_Donuteria.html
+
+https://ubg42.github.io/Game/Papas_Hotdoggeria.html
+
+https://ubg42.github.io/Game/Papas_Pancakeria.html
+
+https://ubg42.github.io/Game/Papas_Pastaria.html
+
+https://ubg42.github.io/Game/Papas_Scooperia.html
+
+https://ubg42.github.io/Game/Papas_Sushiria.html
+
+https://ubg42.github.io/Game/Papas_Tacomia.html
+
+https://ubg42.github.io/Game/Papas_Wingeria.html
+
 FOR THE GAMES!!!!!!
 
 and chatgpt
