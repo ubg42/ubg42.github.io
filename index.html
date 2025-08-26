@@ -28,7 +28,7 @@
       border: none;
       width: 200px;
       position: absolute;
-      top: 25px; /* aligned with other header texts */
+      top: 25px;
       left: 20px;
     }
 
@@ -38,13 +38,11 @@
       top: 5px;
       left: 370px;
       cursor: pointer;
-      color: ;
       text-align: center;
     }
 
     .txt {
       font-size: 28px;
-      color: we;
       text-decoration: underline;
       position: absolute;
       top: 5px;
@@ -86,17 +84,17 @@
 </head>
 <body>
 
- <header>
-    <input type="text" id="searchBar" placeholder="Search games..." />
+<header>
+  <input type="text" id="searchBar" placeholder="Search games..." />
 
-    <div onclick="openGame('https://forms.gle/mNzjANc9DHZwfvst9', 'Report Problem/Game Suggestion')">
-      <h1 class="form">Report Problem/Game Suggestion</h1>
-    </div>
+  <div onclick="openGame('https://forms.gle/mNzjANc9DHZwfvst9', 'Report Problem/Game Suggestion')">
+    <h1 class="form">Report Problem/Game Suggestion</h1>
+  </div>
 
-    <h1 class="txt">Over 100 Unblocked Games</h1>
-  </header>
+  <h1 class="txt">Over 100 Unblocked Games</h1>
+</header>
 
-  <div class="game-grid" id="gameGrid">
+<div class="game-grid" id="gameGrid">
     <div class="game-card" onclick="openGame('https://fridaynight-funkin.github.io/f6/stickman-bike/', 'Stickman Bike')">
       <img src="https://fridaynight-funkin.github.io/imgs/stickman-bike.png" alt="Stickman Bike">
       <h3>Stickman Bike</h3>
@@ -379,9 +377,9 @@
 		<img src="https://repository-images.githubusercontent.com/334747121/4019fe00-866b-11eb-9ceb-6bfdf0cc29f1" alt="Friday Night Funkin">
 		<h3>Friday Night Funkin'</h3>
 	</div>
-	  	<div class="game-card" onclick="openGame('https://crossy-road.gitlab.io/file/', 'Crossy Road')">
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz6BkAIOKYlftcfWL2_UPknQNxWCdW0dhdvQ&s" alt="Crossy Road">
-		<h3>Crossy Road</h3>
+	  	<div class="game-card" onclick="openGame('https://just-fall-online.github.io/file/', 'Just Fall.lol')">
+		<img src="https://just-falllol.github.io/images/favicon.png" alt="Just Fall.lol">
+		<h3>Just Fall.lol</h3>
 	</div>
 	  	<div class="game-card" onclick="openGame('https://narrow-one.github.io/n/top-speed-racing-3d/', 'Top Speed Racing 3D')">
 		<img src="https://htmlxm.github.io/thumb/top-speed-racing-3d.png" alt="Top Speed Racing 3D">
@@ -659,53 +657,37 @@
 		<img src="https://ubg42.github.io/file/Papas_Pizzeria.jpg" alt="Papas Pizzeria">
 		<h3>Papas Pizzeria</h3>
 	</div>
-  <script>
-    function openGame(url, title) {
-      var newTab = window.open('about:blank', '_blank');
-      newTab.document.write(`
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <title>${title}</title>
-          <style>
-            body {
-              margin: 0;
-              overflow: hidden;
-            }
-            iframe {
-              width: 100vw;
-              height: 100vh;
-              border: none;
-            }
-          </style>
-        </head>
-        <body>
-          <iframe src="${url}" frameborder="0"></iframe>
-        </body>
-        </html>
-      `);
-      newTab.document.close();
-    }
-
-    document.getElementById('searchBar').addEventListener('input', function () {
-      const query = this.value.toLowerCase();
-      const cards = document.querySelectorAll('.game-card');
-
-      cards.forEach(card => {
-        const title = card.querySelector('h3').textContent.toLowerCase();
-        card.style.display = title.includes(query) ? 'block' : 'none';
-      });
-    });
-  </script>
 <script>
-  const searchBar = document.getElementById("searchBar");
-  const gameCards = document.querySelectorAll(".game-card");
+  function openGame(url, title) {
+    var newTab = window.open('about:blank', '_blank');
+    newTab.document.write(`
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>${title}</title>
+        <style>
+          body { margin: 0; overflow: hidden; }
+          iframe { width: 100vw; height: 100vh; border: none; }
+        </style>
+      </head>
+      <body>
+        <iframe src="${url}" frameborder="0"></iframe>
+      </body>
+      </html>
+    `);
+    newTab.document.close();
+  }
+</script>
+<script>
+const searchBar = document.getElementById("searchBar");
+const gameCards = document.querySelectorAll(".game-card");
+const body = document.body;
 
-  const normalize = (str) => str.trim().toLowerCase();
+const normalize = (str) => str.trim().toLowerCase();
 
-  const triggers = {
+const triggers = {
     "cj": [
       "the impossible quiz",
       "subway surfers",
@@ -829,54 +811,39 @@
 	],
   };
 
-  searchBar.addEventListener("input", function () {
-    const query = normalize(searchBar.value);
+const backgrounds = {
+  default: 'url("galaxy.jpg")',
+  bails: 'url("yellow.jpg")',
+  jm: 'url("e.png")',
+  jk: 'url("e.png")',
+  creator: 'url("shrek.png")'
+};
 
-    gameCards.forEach((card) => {
-      const title = normalize(card.querySelector("h3").textContent);
+// Set default background
+body.style.backgroundImage = backgrounds.default;
 
-      if (triggers[query]) {
-        card.style.display = triggers[query].includes(title) ? "" : "none";
-      } else {
-        card.style.display = title.includes(query) ? "" : "none";
-      }
-    });
+searchBar.addEventListener("input", function () {
+  const query = normalize(searchBar.value);
+
+  // Filter game cards
+  gameCards.forEach((card) => {
+    const title = normalize(card.querySelector("h3").textContent);
+    if (triggers[query]) {
+      card.style.display = triggers[query].includes(title) ? "" : "none";
+    } else {
+      card.style.display = title.includes(query) ? "" : "none";
+    }
   });
+
+  // Change background based on trigger (dynamic lookup)
+  if (backgrounds[query]) {
+    body.style.backgroundImage = backgrounds[query];
+  } else {
+    body.style.backgroundImage = backgrounds.default;
+  }
+});
 </script>
-<script>
-  const searchBar = document.getElementById("searchBar");
-  const gameCards = document.querySelectorAll(".game-card");
 
-  searchBar.addEventListener("input", function () {
-    const query = searchBar.value.trim().toLowerCase();
 
-    const cjTrigger = "caylen and jaxton";
-    const cjGames = [
-      "eggy car",
-      "retro bowl",
-      "idle mining empire"
-    ];
-
-    gameCards.forEach((card) => {
-      const title = card.querySelector("h3").textContent.trim().toLowerCase();
-
-      if (query === cjTrigger) {
-        // Show only CJ games
-        if (cjGames.includes(title)) {
-          card.style.display = "";
-        } else {
-          card.style.display = "none";
-        }
-      } else {
-        // Normal search filtering
-        if (title.includes(query)) {
-          card.style.display = "";
-        } else {
-          card.style.display = "none";
-        }
-      }
-    });
-  });
-</script>
 </body>
 </html>
