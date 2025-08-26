@@ -701,27 +701,28 @@
 		<h3>Papas Wingeria</h3>
 	</div>
 <script>
-  function openGame(url, title) {
-    var newTab = window.open('about:blank', '_blank');
-    newTab.document.write(`
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>${title}</title>
-        <style>
-          body { margin: 0; overflow: hidden; }
-          iframe { width: 100vw; height: 100vh; border: none; }
-        </style>
-      </head>
-      <body>
-        <iframe src="${url}" frameborder="0"></iframe>
-      </body>
-      </html>
-    `);
-    newTab.document.close();
-  }
+function openGame(url, title) {
+  var newTab = window.open('about:blank', '_blank');
+  newTab.document.write(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Google Docs</title>
+      <style>
+        body { margin: 0; overflow: hidden; }
+        iframe { width: 100vw; height: 100vh; border: none; }
+      </style>
+    </head>
+    <body>
+      <iframe src="${url}" frameborder="0"></iframe>
+    </body>
+    </html>
+  `);
+  newTab.document.close();
+}
+
 </script>
 <script>
 const searchBar = document.getElementById("searchBar");
@@ -857,6 +858,36 @@ const triggers = {
 	     "slope",
 		 "plants vs zombies",
 		 "eggy car"
+	],
+		"papa's games": [
+	     "papas freezeria",
+         "papas pizzeria",
+         "papas bakeria",
+         "papas burgeria",
+         "papas cupcakeria",
+         "papas donuteria",
+         "papas hotdoggeria",
+         "papas pancakeria",
+         "papas pastaria",
+         "papas scooperia",
+         "papas sushiria",
+         "papas tacomia",
+         "papas wingeria"
+	],
+		 "papas games": [
+	     "papas freezeria",
+         "papas pizzeria",
+         "papas bakeria",
+         "papas burgeria",
+         "papas cupcakeria",
+         "papas donuteria",
+         "papas hotdoggeria",
+         "papas pancakeria",
+         "papas pastaria",
+         "papas scooperia",
+         "papas sushiria",
+         "papas tacomia",
+         "papas wingeria"
 	],
   };
 
