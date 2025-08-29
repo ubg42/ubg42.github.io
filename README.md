@@ -300,7 +300,7 @@ https://ubg42.github.io/Game/Papas_Sushiria.html
 
 https://ubg42.github.io/Game/Papas_Tacomia.html
 
-https://marketingdemo.stg-uk.inspiredvirgo.com/tpi-game/actual/marketingparentredirect=false&rgsId=virgo&igpId=demo&brandId=marketing&skinId=default&gameId=IGG_twentypboostroulette&channelType=mobile&presentType=HTML5&secureToken=sampleToken&playerId=*&accountId=*&localeCode=en-GB&currencyCode=XXX&IGG_currency=XXX&IGG_language=en-GB&IGG_channel=mobile&IGG_token=sampleToken&IGG_jurisdiction=GB&IGG_homeUrl=https://inseinc.com
+https://bit.ly/Boost-Roulette
 
 https://2-player-games-online.github.io/g22/class-385/
 
