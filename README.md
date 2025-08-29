@@ -300,7 +300,33 @@ https://ubg42.github.io/Game/Papas_Sushiria.html
 
 https://ubg42.github.io/Game/Papas_Tacomia.html
 
-https://ubg42.github.io/Game/Papas_Wingeria.html
+https://marketingdemo.stg-uk.inspiredvirgo.com/tpi-game/actual/marketingparentredirect=false&rgsId=virgo&igpId=demo&brandId=marketing&skinId=default&gameId=IGG_twentypboostroulette&channelType=mobile&presentType=HTML5&secureToken=sampleToken&playerId=*&accountId=*&localeCode=en-GB&currencyCode=XXX&IGG_currency=XXX&IGG_language=en-GB&IGG_channel=mobile&IGG_token=sampleToken&IGG_jurisdiction=GB&IGG_homeUrl=https://inseinc.com
+
+https://2-player-games-online.github.io/g22/class-385/
+
+https://2-player-games-online.github.io/g2/class-629/
+
+https://2-player-games-online.github.io/g16/class-759/
+
+https://2-player-games-online.github.io/g7/class-71/
+
+https://2-player-games-online.github.io/g7/class-77/
+
+https://dnrweqffuwjtx.cloudfront.net/games/2024/code/6/get-on-top/index.html
+
+https://dnrweqffuwjtx.cloudfront.net/games/2024/unity3/survival-karts/index.html
+
+https://tataedu23.github.io/g68/class-1128
+
+https://tataedu23.github.io/g50/class-6
+
+https://tataedu23.github.io/g97/class-482
+
+https://tataedu23.github.io/g9/class-420
+
+https://scrap-metal.github.io/s/madalin-stunt-cars-3
+
+https://jan25.github.io/f1-lights
 
 FOR THE GAMES!!!!!!
 
