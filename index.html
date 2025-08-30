@@ -80,6 +80,18 @@
     .game-card h3 {
       margin: 10px;
     }
+
+    footer {
+      background: #007fff;
+      color: white;
+      text-align: center;
+      padding: 15px 20px;
+      font-size: 16px;
+    }
+
+    .footer-text {
+      margin: 0;
+    }
   </style>
 </head>
 <body>
@@ -780,6 +792,14 @@
 		<img src="https://2-player-games-online.github.io/img/class-292.png" alt="Duo Survival 3">
 		<h3>Duo Survival 3</h3>
 	</div>
+</div>
+
+<footer>
+  <p class="footer-text">
+    UBG42 | Contact: ubg423@gmail.com
+  </p>
+</footer>
+
 <script>
 function openGame(url, title) {
   var newTab = window.open('about:blank', '_blank');
@@ -1030,15 +1050,18 @@ searchBar.addEventListener("input", function () {
     }
   });
 
-  // Change background based on trigger (dynamic lookup)
-  if (backgrounds[query]) {
-    body.style.backgroundImage = backgrounds[query];
+  // Change background based on trigger
+  body.style.backgroundImage = backgrounds[query] || backgrounds.default;
+
+  // Show/hide footer
+  const footer = document.querySelector("footer");
+  if (query.length > 0) {
+    footer.style.display = "none";
   } else {
-    body.style.backgroundImage = backgrounds.default;
+    footer.style.display = "block";
   }
 });
+
 </script>
-
-
 </body>
 </html>
