@@ -328,6 +328,12 @@ https://scrap-metal.github.io/s/madalin-stunt-cars-3
 
 https://jan25.github.io/f1-lights
 
+https://2-player-games-online.github.io/g3/class-308
+
+https://2-player-games-online.github.io/g177/class-292
+
+https://physicsedu16.github.io/g2/class-770
+
 FOR THE GAMES!!!!!!
 
 and chatgpt
