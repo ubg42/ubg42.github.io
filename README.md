@@ -332,7 +332,7 @@ https://2-player-games-online.github.io/g3/class-308
 
 https://2-player-games-online.github.io/g177/class-292
 
-https://physicsedu16.github.io/g2/class-770
+https://ubg42.github.io/file/The-Worlds-Easyest-Game.html
 
 FOR THE GAMES!!!!!!
 
