@@ -338,6 +338,8 @@ https://turbowarp.org/161864384/embed
 
 https://1v1-lol-online.github.io/file/
 
+https://rbeesley.github.io/MicrosoftEdge-SURF
+
 FOR THE GAMES!!!!!!
 
 and chatgpt
