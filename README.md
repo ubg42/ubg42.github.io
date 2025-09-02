@@ -334,6 +334,10 @@ https://2-player-games-online.github.io/g177/class-292
 
 https://ubg42.github.io/file/The-Worlds-Easyest-Game.html
 
+https://turbowarp.org/161864384/embed
+
+https://1v1-lol-online.github.io/file/
+
 FOR THE GAMES!!!!!!
 
 and chatgpt
