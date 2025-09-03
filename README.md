@@ -340,6 +340,18 @@ https://1v1-lol-online.github.io/file/
 
 https://rbeesley.github.io/MicrosoftEdge-SURF
 
+https://math181124.github.io/g9/class-604
+
+https://math181124.github.io/g9/class-695
+
+https://math181124.github.io/g16/class-647
+
+https://math181124.github.io/g20/class-825
+
+https://math181124.github.io/g50/class-28
+
+https://math181124.github.io/g69/class-644
+
 FOR THE GAMES!!!!!!
 
 and chatgpt
