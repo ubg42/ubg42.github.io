@@ -352,6 +352,8 @@ https://math181124.github.io/g50/class-28
 
 https://math181124.github.io/g69/class-644
 
+https://sciencemathedu.github.io/space
+
 FOR THE GAMES!!!!!!
 
 and chatgpt
