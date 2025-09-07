@@ -360,6 +360,8 @@ https://2-playergames.github.io/g/class-623
 
 https://turbowarp.org/392655529/embed
 
+https://bitlifeonline.github.io/slice-master
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
