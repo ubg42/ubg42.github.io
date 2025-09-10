@@ -360,6 +360,16 @@ https://2-playergames.github.io/g/class-623
 
 https://turbowarp.org/392655529/embed
 
+https://ubg42.github.io/file/The_Sun_for_the_Vampire.html
+
+https://physicsedu16.github.io/g69/class-636
+
+https://physicsedu16.github.io/g3/class-725
+
+https://math711.github.io/g22/class-363
+
+https://htmlxm.github.io/h2/burnout-drift-seaport-max
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
