@@ -370,6 +370,8 @@ https://math711.github.io/g22/class-363
 
 https://htmlxm.github.io/h2/burnout-drift-seaport-max
 
+https://gamingshitposting.github.io/ext-bin-1/littlealchemy2.com/index.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
