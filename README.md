@@ -376,6 +376,8 @@ https://sbeyer.github.io/2048
 
 https://hczhcz.github.io/Flappy-2048
 
+https://fridaynight-funkin.github.io/f/block-the-pig
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
