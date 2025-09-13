@@ -372,6 +372,10 @@ https://htmlxm.github.io/h2/burnout-drift-seaport-max
 
 https://gamingshitposting.github.io/ext-bin-1/littlealchemy2.com/index.html
 
+https://sbeyer.github.io/2048
+
+https://hczhcz.github.io/Flappy-2048
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
