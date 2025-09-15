@@ -378,6 +378,8 @@ https://hczhcz.github.io/Flappy-2048
 
 https://fridaynight-funkin.github.io/f/block-the-pig
 
+https://ubg42.github.io/file/Ski-Safari.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
