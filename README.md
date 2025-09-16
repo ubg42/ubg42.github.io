@@ -382,6 +382,12 @@ https://ubg42.github.io/file/Ski-Safari.html
 
 https://kevinedu111.github.io/g177/class-333
 
+https://tataedu23.github.io/g16/class-669
+
+https://ubg42.github.io/file/Truck-Loader.html
+   
+https://ubg42.github.io/file/Truck-Loader-5.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
