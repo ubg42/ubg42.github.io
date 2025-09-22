@@ -378,8 +378,6 @@ https://hczhcz.github.io/Flappy-2048
 
 https://fridaynight-funkin.github.io/f/block-the-pig
 
-https://ubg42.github.io/file/Ski-Safari.html
-
 https://kevinedu111.github.io/g177/class-333
 
 https://tataedu23.github.io/g16/class-669
@@ -387,6 +385,8 @@ https://tataedu23.github.io/g16/class-669
 https://ubg42.github.io/file/Truck-Loader.html
    
 https://ubg42.github.io/file/Truck-Loader-5.html
+
+https://tataedu23.github.io/g22/class-351
 
 FOR THE GAMES!!!!!!
 
