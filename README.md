@@ -32,7 +32,7 @@ https://narrow-one.github.io/n8/moto-x3m/
 
 https://ovo-game.github.io/o/among-us/
 
-https://ubg42.github.io/file/Minecraft.html
+https://ubg42.github.io/file/Eaglercraft-112.htm
 
 https://elastic-man-online.github.io/file/
 
@@ -374,7 +374,7 @@ https://gamingshitposting.github.io/ext-bin-1/littlealchemy2.com/index.html
 
 https://sbeyer.github.io/2048
 
-https://hczhcz.github.io/Flappy-2048
+https://1kh0.github.io/projects/meme2048/index.html
 
 https://fridaynight-funkin.github.io/f/block-the-pig
 
