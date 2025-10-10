@@ -242,7 +242,7 @@ https://sz-games.github.io/Games11/polytrack/index.html
 
 https://ubg42.github.io/file/PVZ.html
 
-https://ubg42.github.io/file/Wonderputt.html
+https://hva2021.github.io/adventure-drivers/index.html
 
 https://ubg42.github.io/file/learn-to-fly.html
 
@@ -387,6 +387,8 @@ https://ubg42.github.io/file/Truck-Loader.html
 https://ubg42.github.io/file/Truck-Loader-5.html
 
 https://tataedu23.github.io/g22/class-351
+
+https://1kh0.github.io/projects/draw-the-hill/index.html
 
 FOR THE GAMES!!!!!!
 
