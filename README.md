@@ -272,8 +272,6 @@ https://ubg42.github.io/file/Learn_To_Fly_3.html
 
 https://ubg42.github.io/file/Learn_To_Fly_idle.html
 
-https://cryptodude3.github.io/slope.html
-
 https://unblocked-games-onlines.github.io/u3/tag/
 
 https://ubg42.github.io/file/Papas_Freezeria.html
