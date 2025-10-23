@@ -390,6 +390,10 @@ https://1kh0.github.io/projects/draw-the-hill/index.html
 
 https://ubg42.github.io/file/SofloWheelieLife.html
 
+https://htmlxm.github.io/h6/rooftop-snipers-2/
+
+https://spew45.github.io/game-assets/stickman-dismount/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
