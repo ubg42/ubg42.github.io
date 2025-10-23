@@ -322,8 +322,6 @@ https://tataedu23.github.io/g97/class-482
 
 https://tataedu23.github.io/g9/class-420
 
-https://scrap-metal.github.io/s/madalin-stunt-cars-3
-
 https://jan25.github.io/f1-lights
 
 https://2-player-games-online.github.io/g3/class-308
