@@ -392,6 +392,8 @@ https://htmlxm.github.io/h6/rooftop-snipers-2/
 
 https://spew45.github.io/game-assets/stickman-dismount/
 
+https://abinbins.github.io/a6/stacktris/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
