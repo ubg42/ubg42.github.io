@@ -396,6 +396,8 @@ https://abinbins.github.io/a6/stacktris/
 
 https://1kh0.github.io/projects/sand-game/index.html
 
+https://ubg42.github.io/file/Pandemic_2.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
