@@ -398,6 +398,10 @@ https://1kh0.github.io/projects/sand-game/index.html
 
 https://ubg42.github.io/file/Pandemic_2.html
 
+https://tataedu23.github.io/g5/class-474/ 
+
+https://tataedu23.github.io/g22/class-358/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
