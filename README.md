@@ -416,7 +416,13 @@ https://ubg42.github.io/file/Age_Of_War.html
 
 https://tataedu23.github.io/g177/class-334/
 
-https://tataedu23.github.io/g50/class-29/
+https://ubg42.github.io/file/Gold_Miner.html
+
+https://ubg42.github.io/file/The_Impossible_Quiz_2.html
+	   
+https://ubg42.github.io/file/Super_Smash_Flash.html
+	  
+https://ubg42.github.io/file/Gold_Miner_Special_Edition.html
 
 FOR THE GAMES!!!!!!
 
