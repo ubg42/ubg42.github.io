@@ -424,6 +424,8 @@ https://ubg42.github.io/file/Super_Smash_Flash.html
 	  
 https://ubg42.github.io/file/Gold_Miner_Special_Edition.html
 
+https://ubg42.github.io/file/Free-Rider.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
