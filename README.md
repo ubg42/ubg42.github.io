@@ -426,6 +426,8 @@ https://ubg42.github.io/file/Gold_Miner_Special_Edition.html
 
 https://ubg42.github.io/file/Free-Rider.html
 
+https://unblockedgamesfree.github.io/3d-monster-truck-skyroads/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
