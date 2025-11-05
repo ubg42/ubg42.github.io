@@ -426,7 +426,7 @@ https://ubg42.github.io/file/Gold_Miner_Special_Edition.html
 
 https://ubg42.github.io/file/Free-Rider.html
 
-https://unblockedgamesfree.github.io/3d-monster-truck-skyroads/
+https://ubg42.github.io/file/The_Impossible_Quizmas.html
 
 FOR THE GAMES!!!!!!
 
