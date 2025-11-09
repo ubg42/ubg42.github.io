@@ -432,6 +432,6 @@ https://ubg42.github.io/file/Train_Mania.html
 
 FOR THE GAMES!!!!!!
 
-Creadits to all the [Scratch](https://scratch.mit.edu/)) games and [Flash](https://poki.com/en/flash) games
+Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
 
 and [ChatGPT](https://chatgpt.com/)
