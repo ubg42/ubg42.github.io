@@ -434,4 +434,4 @@ FOR THE GAMES!!!!!!
 
 Creadits to all the scratch games and flash games
 
-and chatgpt
+and [ChatGPT](https://chatgpt.com/)
