@@ -168,7 +168,7 @@ https://mountain658.github.io/g/fruitninja/fruitninja.html
 
 https://antarttycoon.github.io/game/index.html
 
-https://ejb15.github.io/ejb1.github.io/
+https://amhooman.github.io/website/games/retrobowl/game.html
 
 https://ubg42.github.io/file/deal_or_no_deal.html
 
