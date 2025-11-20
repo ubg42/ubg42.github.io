@@ -442,6 +442,8 @@ https://funny-shooter.github.io/file/
 
 https://ubg42.github.io/file/QWOP.html
 
+https://ubg42.github.io/file/Epic_Cluck.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
