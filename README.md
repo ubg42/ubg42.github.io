@@ -386,7 +386,7 @@ https://tataedu23.github.io/g22/class-351
 
 https://1kh0.github.io/projects/draw-the-hill/index.html
 
-https://ubg42.github.io/file/Soflo-Wheelie-Life.html
+https://ubg42.github.io/file/Soflo_Wheelie_Life.html
 
 https://htmlxm.github.io/h6/rooftop-snipers-2/
 
