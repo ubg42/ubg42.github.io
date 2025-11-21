@@ -226,7 +226,7 @@ https://abinbins.github.io/a6/raft-wars-2/
 
 https://sz-games.github.io/Games4/stick-duel-battle/
 
-https://ubg42.github.io/file/Clash-Royale.html
+https://h5.supergogame.com/wj/index.html?fromapp=skipbo&jump_type=local_app
 
 https://hva2021.github.io/cannon-basketball-4/index.html
 
