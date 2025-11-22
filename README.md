@@ -442,6 +442,14 @@ https://funny-shooter.github.io/file/
 
 https://ubg42.github.io/file/QWOP.html
 
+https://ubg42.github.io/file/Duck_Life_1.html
+
+https://ubg42.github.io/file/Duck_Life_2.html
+
+https://ubg42.github.io/file/Duck_Life_3.html
+	  
+https://ubg42.github.io/file/Duck_Life_4.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
