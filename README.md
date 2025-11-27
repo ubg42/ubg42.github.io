@@ -8,7 +8,7 @@ https://ubg42.github.io/file/The_Impossible_Quiz.html
 
 https://slopenexus.github.io/games/v1.2.5/index.html
 
-https://1kh0.github.io/projects/tunnel-rush/index.html
+https://ubg42.github.io/html5/tunnelrush.html
 
 https://ubgfun.github.io/sports/8-ball-pool/
 
