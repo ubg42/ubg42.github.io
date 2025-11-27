@@ -458,10 +458,6 @@ https://ubg42.github.io/html5/kartbros.html
 
 https://ubg42.github.io/html5/timeshooter3.html
 
-https://ubg42.github.io/html5/stealarot.html
-
-https://ubg42.github.io/html5/growplants.html
-
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
