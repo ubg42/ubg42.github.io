@@ -468,8 +468,6 @@ https://ubg42.github.io/html5/retrobowlcollege.html
 
 https://ubg42.github.io/html5/recoil.html
 
-https://ubg42.github.io/html5/drawtheline.html
-
 https://ubg42.github.io/html5/drivenwild.html
 
 https://ubg42.github.io/html5/dunkshot.html
