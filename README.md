@@ -478,6 +478,8 @@ https://ubg42.github.io/html5/growyourgarden.html
 
 https://ubg42.github.io/html5/ragollhit.html
 
+https://ubg42.github.io/html5/solarsmash.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
