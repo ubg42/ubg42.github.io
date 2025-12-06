@@ -254,6 +254,8 @@ https://ubg42.github.io/file/escapingtheprisongame.html
 
 https://ubg42.github.io/file/breaking_the_bank.html
 
+https://ubg42.github.io/file/stealing_the_diamond.html
+
 https://tataedu23.github.io/g16/class-655/
 
 https://ubg42.github.io/file/learn_to_fly_2.html
