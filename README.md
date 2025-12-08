@@ -12,7 +12,7 @@ https://ubg42.github.io/html5/tunnelrush.html
 
 https://ubgfun.github.io/sports/8-ball-pool/
 
-https://flappybirdgame.github.io/file/
+https://flappybirdonline.gitlab.io/file/
 
 https://snow-rider3d.github.io/file/
 
