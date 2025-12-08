@@ -86,8 +86,6 @@ https://bobtherobberunblocked.github.io/2/
 
 https://23azostore.github.io/s7/bob-the-robber-4/
 
-http://ubgwtf.gitlab.io/bob-the-robber-4-season-3-japan/
-
 https://ubg42.github.io/file/Appel.html
 
 https://ubg42.github.io/file/Geometry-Dash.html
