@@ -302,16 +302,6 @@ https://ubg42.github.io/Game/Papas_Tacomia.html
 
 https://bit.ly/Boost-Roulette
 
-https://2-player-games-online.github.io/g22/class-385/
-
-https://2-player-games-online.github.io/g2/class-629/
-
-https://2-player-games-online.github.io/g16/class-759/
-
-https://2-player-games-online.github.io/g7/class-71/
-
-https://2-player-games-online.github.io/g7/class-77/
-
 https://dnrweqffuwjtx.cloudfront.net/games/2024/code/6/get-on-top/index.html
 
 https://dnrweqffuwjtx.cloudfront.net/games/2024/unity3/survival-karts/index.html
