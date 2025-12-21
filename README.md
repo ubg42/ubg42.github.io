@@ -470,8 +470,6 @@ https://ubg42.github.io/html5/gdlite.html
 
 https://ubg42.github.io/toca-boca/games/toca/life-unlimited/
 
-https://ubg42.github.io/spiral-roll/spiral-roll/gameCode/
-
 https://ubg42.github.io/bullet-bros/games/bullet-bros/
 
 FOR THE GAMES!!!!!!
