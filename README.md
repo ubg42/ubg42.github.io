@@ -316,10 +316,6 @@ https://tataedu23.github.io/g9/class-420
 
 https://jan25.github.io/f1-lights
 
-https://2-player-games-online.github.io/g3/class-308
-
-https://2-player-games-online.github.io/g177/class-292
-
 https://ubg42.github.io/file/The-Worlds-Easyest-Game.html
 
 https://turbowarp.org/161864384/embed
@@ -343,8 +339,6 @@ https://math181124.github.io/g69/class-644
 https://sciencemathedu.github.io/space
 
 https://ubg42.github.io/file/Roblox_Blade_Ball_Scratch_Ver.html
-
-https://2-playergames.github.io/g/class-623
 
 https://turbowarp.org/392655529/embed
 
