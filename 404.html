@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>404 Error</title>
+<title>Animated Text Display</title>
 <link rel="shortcut icon" href="Docs.ico" type="image/ico">  
 
 <style>
@@ -47,6 +47,15 @@ body {
   text-align: center;
   z-index: 2;
 }
+
+.img {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
 
 .big {
   font-size: 3rem;
@@ -110,15 +119,14 @@ body {
 </head>
 
 <body>
-
+<img class="img" src="sad-emoji.png" alt="Sad Emoji" width="200" height="200">
 <div class="scene">
   <div class="glow"></div>
 
   <div class="text-box">
     <div class="big typing">404 Error</div>
     <div class="small">Page Not Found!</div>
-  </div>
-
+  </div> 
   <button class="btn" onclick="window.location.href='https://ubg42.github.io'">
     Go To Homepage!
   </button>
