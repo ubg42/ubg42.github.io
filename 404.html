@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Animated Text Display</title>
+
+<style>
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.scene {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Glow background */
+.glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0,200,255,.35), transparent 70%);
+  filter: blur(80px);
+  transform: translate(-50%, -50%);
+  animation: pulse 6s infinite alternate;
+}
+
+@keyframes pulse {
+  from { transform: translate(-50%, -50%) scale(0.9); }
+  to { transform: translate(-50%, -50%) scale(1.1); }
+}
+
+/* Text */
+.text-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+.big {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.small {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #aaa;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Typing */
+.typing {
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 4s steps(30, end) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Button */
+.btn {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  color: white;
+  background: linear-gradient(135deg, #00ccff, #0066ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0,200,255,.6);
+  transition: 0.3s;
+  z-index: 2;
+}
+
+.btn:hover {
+  transform: translateX(-50%) scale(1.08);
+  box-shadow: 0 0 40px rgba(0,200,255,1);
+}
+</style>
+</head>
+
+<body>
+
+<div class="scene">
+  <div class="glow"></div>
+
+  <div class="text-box">
+    <div class="big typing">404 Error</div>
+    <div class="small">Page Not Found!</div>
+  </div>
+
+  <button class="btn" onclick="window.location.href='https://ubg42.github.io'">
+    Go To Homepage!
+  </button>
+</div>
+
+</body>
+</html>
