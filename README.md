@@ -474,6 +474,8 @@ https://ubg42.github.io/bullet-bros/games/bullet-bros/
 
 https://ubg423.github.io/file/vietdp-games/games/t52025/plonky/
 
+https://ubg42.github.io/file/Sprinter.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
