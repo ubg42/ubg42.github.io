@@ -92,15 +92,7 @@ https://ubg42.github.io/file/Geometry-Dash.html
 
 https://soccerlegends.github.io/soccer-legends/
 
-https://basketballstarsonline.github.io/file/
-
-https://fireboy-and-watergirl-online.github.io/file/
-
-https://coolubg.github.io/coolubg-list/fireboy-and-watergirl-2/
-
-https://coolubg.github.io/coolubg-list/fireboy-and-watergirl-3/
-
-https://coolubg.github.io/coolubg-list/fireboy-and-watergirl-4/
+https://ubg42.github.io/html5/basketballstars.html
 
 https://ovo-game.github.io/o/drift-hunters/
 
@@ -216,7 +208,7 @@ https://ubg42.github.io/file/worldshardestgame.html
 
 https://tataedu23.github.io/g16/class-413/
 
-https://coolmathsgames.github.io/c/gunspin/
+https://ubg42.github.io/html5/gunspin.html
 
 https://23azostore.github.io/s2/4th-and-goal-2022/
 
