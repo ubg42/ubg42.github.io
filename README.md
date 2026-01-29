@@ -108,8 +108,6 @@ https://driftboss-online.github.io/file/
 
 https://ubg77.github.io/pixel-shooter/
 
-https://404gamesgithub.github.io/slow-roads/
-
 https://smashkartsonlinegames.github.io/v/moto-x3m-pool-party/
 
 https://htmlxm.github.io/h/moto-x3m-spooky-land/
@@ -467,6 +465,8 @@ https://ubg42.github.io/bullet-bros/games/bullet-bros/
 https://ubg423.github.io/file/vietdp-games/games/t52025/plonky/
 
 https://ubg42.github.io/file/Sprinter.html
+
+https://ubg42.github.io/html5/crazymotorcycle.html
 
 FOR THE GAMES!!!!!!
 
