@@ -10,7 +10,7 @@ https://slopenexus.github.io/games/v1.2.5/index.html
 
 https://ubg42.github.io/html5/tunnelrush.html
 
-https://ubgfun.github.io/sports/8-ball-pool/
+https://8ballpoolonline.gitlab.io/file
 
 https://flappybirdonline.gitlab.io/file/
 
@@ -28,7 +28,7 @@ https://lekug.github.io/tn6pS9dCf37xAhkJv/
 
 https://tomb-ofthe-mask.github.io/file/
 
-https://narrow-one.github.io/n8/moto-x3m/
+https://motox3m.gitlab.io/x3m-1.20.1p/
 
 https://ovo-game.github.io/o/among-us/
 
