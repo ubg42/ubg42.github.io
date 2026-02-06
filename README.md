@@ -468,6 +468,14 @@ https://ubg42.github.io/file/Sprinter.html
 
 https://ubg42.github.io/html5/crazymotorcycle.html
 
+https://ubg423.github.io/logos/2017/cricket17/cricket17.html
+
+https://ubg42.github.io/logos/2019/july4th19/r6/july4th19.html
+
+https://ubg424.github.io/logos/2018/gnomes/gnomes18.html
+
+https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
