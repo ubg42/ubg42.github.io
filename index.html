@@ -1089,12 +1089,17 @@
   </p>
 </footer>
   <script>
-const start = performance.now();
-debugger;
-const end = performance.now();
+let DEBUG = false;
 
-if (end - start > 100) {
-  console.log("DevTools likely open");
+document.addEventListener("keydown", (e) => {
+  if (e.ctrlKey && e.shiftKey && e.key === "I") {
+    DEBUG = true;
+    console.log("Debug mode enabled");
+  }
+});
+
+function dbg() {
+  if (DEBUG) debugger;
 }
 </script>
 <script>
