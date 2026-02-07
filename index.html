@@ -1088,7 +1088,21 @@
     <p class="footer-text">© 2026 All rights reserved.
   </p>
 </footer>
+  <script>
+document.addEventListener("keydown", (e) => {
+  // Ctrl + Shift + I
+  if (e.ctrlKey && e.shiftKey && e.key === "I") {
+    console.log("Ctrl+Shift+I pressed");
+    debugger;
+  }
 
+  // F12
+  if (e.key === "F12") {
+    console.log("F12 pressed");
+    debugger;
+  }
+});
+  </script>
 <script>
 function openGame(url, title) {
   var newTab = window.open('about:blank', '_blank');
@@ -1111,7 +1125,6 @@ function openGame(url, title) {
   `);
   newTab.document.close();
 }
-
 </script>
 <script>
 const searchBar = document.getElementById("searchBar");
