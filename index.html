@@ -1089,19 +1089,76 @@
   </p>
 </footer>
   <script>
-document.addEventListener("keydown", (e) => {
-  // Ctrl + Shift + I
-  if (e.ctrlKey && e.shiftKey && e.key === "I") {
-    console.log("Ctrl+Shift+I pressed");
-    debugger;
-  }
+/* ===============================
+   GLOBAL DEBUG SETUP
+================================ */
 
-  // F12
-  if (e.key === "F12") {
-    console.log("F12 pressed");
-    debugger;
-  }
+// Pause as soon as the script loads
+console.log("Debugger loaded");
+debugger;
+
+/* ===============================
+   PAGE LOAD
+================================ */
+
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("DOM fully loaded");
 });
+
+/* ===============================
+   CLICK DEBUGGING
+================================ */
+
+// Pause on ANY click
+document.addEventListener("click", (e) => {
+  console.log("Clicked:", e.target);
+  debugger;
+});
+
+/* ===============================
+   FORM DEBUGGING
+================================ */
+
+document.addEventListener("submit", (e) => {
+  console.log("Form submitted:", e.target);
+  debugger;
+});
+
+/* ===============================
+   ERROR DEBUGGING
+================================ */
+
+// Catch JS errors
+window.addEventListener("error", (e) => {
+  console.error("JS Error:", e.message);
+  debugger;
+});
+
+// Catch promise / async errors
+window.addEventListener("unhandledrejection", (e) => {
+  console.error("Unhandled Promise:", e.reason);
+  debugger;
+});
+
+/* ===============================
+   FETCH / API DEBUGGING
+================================ */
+
+const originalFetch = window.fetch;
+window.fetch = async (...args) => {
+  console.log("Fetch called:", args);
+  debugger;
+  return originalFetch(...args);
+};
+
+/* ===============================
+   HELPER (manual pause)
+================================ */
+
+window.pauseHere = () => {
+  debugger;
+};
+
   </script>
 <script>
 function openGame(url, title) {
