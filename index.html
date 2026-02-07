@@ -1089,13 +1089,13 @@
   </p>
 </footer>
   <script>
-const el = new Image();
-Object.defineProperty(el, "id", {
-  get() {
-    debugger;
-  }
-});
-console.log(el);
+const start = performance.now();
+debugger;
+const end = performance.now();
+
+if (end - start > 100) {
+  console.log("DevTools likely open");
+}
   </script>
 <script>
 function openGame(url, title) {
