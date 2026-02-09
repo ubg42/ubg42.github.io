@@ -102,7 +102,7 @@ https://howdoyouspellcomputers.github.io/paperminecraftoffical/
 
 https://d294gk6z3w9l13.cloudfront.net/games/cluster-rush/index.html
 
-https://google-snakegame.github.io/g22/class-356/
+https://ubg424.github.io/game/1.3/
 
 https://driftboss-online.github.io/file/
 
