@@ -94,7 +94,7 @@ https://soccerlegends.github.io/soccer-legends/
 
 https://ubg42.github.io/html5/basketballstars.html
 
-https://ovo-game.github.io/o/drift-hunters/
+https://ubg42.github.io/Drift-Hunters/
 
 https://smash-kartsonline.github.io/g16/class-419/
 
