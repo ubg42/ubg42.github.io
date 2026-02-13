@@ -476,6 +476,8 @@ https://ubg424.github.io/logos/2018/gnomes/gnomes18.html
 
 https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.html
 
+https://ubg42.github.io/MxOffroadMaster/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
