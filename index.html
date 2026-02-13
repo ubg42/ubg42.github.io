@@ -1080,6 +1080,10 @@
 		<img src="https://ubg42.github.io/file/Snake_Game.png" alt="Google Snake">
 		<h3>Google Snake</h3>
 	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/MxOffroadMaster/', 'Google Docs')">
+		<img src="https://ubg42.github.io/MxOffroadMaster/MX-Offroad-Master.jpg" alt="Mx Offroad Master">
+		<h3>Mx Offroad Master</h3>
+	</div>
 </div>
 
 <footer>
@@ -1088,20 +1092,6 @@
     <p class="footer-text">© 2026 All rights reserved.
   </p>
 </footer>
-  <script>
-let DEBUG = false;
-
-document.addEventListener("keydown", (e) => {
-  if (e.ctrlKey && e.shiftKey && e.key === "I") {
-    DEBUG = true;
-    console.log("Debug mode enabled");
-  }
-});
-
-function dbg() {
-  if (DEBUG) debugger;
-}
-</script>
 <script>
 function openGame(url, title) {
   var newTab = window.open('about:blank', '_blank');
@@ -1686,7 +1676,8 @@ searchBar.addEventListener("input", function () {
 	  "https://ubg423.github.io/logos/2017/cricket17/cricket17.html",
 	  "https://ubg42.github.io/logos/2019/july4th19/r6/july4th19.html",
 	  "https://ubg424.github.io/logos/2018/gnomes/gnomes18.html",
-	  "https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.html"	
+	  "https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.html",
+	  "https://ubg42.github.io/MxOffroadMaster/"	
     ];
 
     function openRandom() {
