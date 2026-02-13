@@ -42,7 +42,7 @@ https://xoriushourz.github.io/CookieClicker/
 
 https://tataedu23.github.io/g72/class-638/
 
-https://d3rtzzzsiu7gdr.cloudfront.net/files/ragdoll-archers/index.html
+https://ubg42.github.io/RagdollArchers/
 
 https://bloons-towerdefense.github.io/file/
 
