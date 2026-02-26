@@ -476,7 +476,13 @@ https://ubg424.github.io/logos/2018/gnomes/gnomes18.html
 
 https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.html
 
-https://ubg42.github.io/MxOffroadMaster/
+https://ubg424.github.io/game/1.3/
+
+https://ubg42.github.io/file/Mcdonalds.html
+
+https://ubg42.github.io/Gamezz/idle-lumber-inc/
+	  
+https://ubg42.github.io/LevelDevil2
 
 FOR THE GAMES!!!!!!
 
