@@ -186,7 +186,7 @@ https://tataedu23.github.io/g3/class-724/
 
 https://tataedu23.github.io/g/class-808/
 
-https://tbg95.github.io/bottle-flip-3d/game.html
+https://ubg42.github.io/FlipBottle/
 
 https://tbg95.github.io/motox3m-3/game.html
 
