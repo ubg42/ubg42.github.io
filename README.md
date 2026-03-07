@@ -266,30 +266,6 @@ https://ubg42.github.io/file/Learn_To_Fly_idle.html
 
 https://unblocked-games-onlines.github.io/u3/tag/
 
-https://ubg42.github.io/file/Papas_Freezeria.html
-
-https://ubg42.github.io/file/Papas_Pizzeria.html
-
-https://ubg42.github.io/Game/Papas_Bakeria.html
-
-https://ubg42.github.io/Game/Papas_Burgeria.html
-
-https://ubg42.github.io/Game/Papas_Cupcakeria.html
-
-https://ubg42.github.io/Game/Papas_Donuteria.html
-
-https://ubg42.github.io/Game/Papas_Hotdoggeria.html
-
-https://ubg42.github.io/Game/Papas_Pancakeria.html
-
-https://ubg42.github.io/Game/Papas_Pastaria.html
-
-https://ubg42.github.io/Game/Papas_Scooperia.html
-
-https://ubg42.github.io/Game/Papas_Sushiria.html
-
-https://ubg42.github.io/Game/Papas_Tacomia.html
-
 https://bit.ly/Boost-Roulette
 
 https://dnrweqffuwjtx.cloudfront.net/games/2024/code/6/get-on-top/index.html
