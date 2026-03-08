@@ -1333,7 +1333,7 @@ body.style.backgroundImage = backgrounds.default;
 searchBar.addEventListener("input", function () {
   const query = normalize(searchBar.value);
   // SECRET GAME
-if (query === "1.20") {
+if (query === "secret") {
   let old = document.getElementById("secretGame");
   if (!old) {
     const grid = document.getElementById("gameGrid");
@@ -1343,13 +1343,13 @@ if (query === "1.20") {
     card.id = "secretGame";
 
     card.innerHTML = `
-      <img src="https://ubg42.github.io/img/minecraft.png">
-      <h3>Minecraft 1.20</h3>
+      <img src="https://ubg42.github.io/EscapeRoad2/25050801/loading.png">
+      <h3>Escape Road 2</h3>
     `;
 
     card.onclick = function () {
       openGame(
-        "https://ubg42.github.io/eaglymc1.20/#/bW9yZS9tb3JlL21vZGRlZC9lYWdseWpz",
+        "https://ubg42.github.io/EscapeRoad2/",
         "Google Docs"
       );
     };
