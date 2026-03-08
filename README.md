@@ -460,6 +460,8 @@ https://ubg42.github.io/Gamezz/idle-lumber-inc/
 	  
 https://ubg42.github.io/LevelDevil2
 
+https://ubg42.github.io/EscapeRoad2/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
