@@ -1332,6 +1332,34 @@ body.style.backgroundImage = backgrounds.default;
 
 searchBar.addEventListener("input", function () {
   const query = normalize(searchBar.value);
+  // SECRET GAME
+if (query === "1.20") {
+  let old = document.getElementById("secretGame");
+  if (!old) {
+    const grid = document.getElementById("gameGrid");
+
+    const card = document.createElement("div");
+    card.className = "game-card";
+    card.id = "secretGame";
+
+    card.innerHTML = `
+      <img src="https://ubg42.github.io/img/minecraft.png">
+      <h3>Minecraft 1.20</h3>
+    `;
+
+    card.onclick = function () {
+      openGame(
+        "https://ubg42.github.io/eaglymc1.20/#/bW9yZS9tb3JlL21vZGRlZC9lYWdseWpz",
+        "Google Docs"
+      );
+    };
+
+    grid.prepend(card);
+  }
+} else {
+  const old = document.getElementById("secretGame");
+  if (old) old.remove();
+}
 
   // Filter game cards
   gameCards.forEach((card) => {
