@@ -1332,34 +1332,7 @@ body.style.backgroundImage = backgrounds.default;
 
 searchBar.addEventListener("input", function () {
   const query = normalize(searchBar.value);
-  // SECRET GAME
-if (query === "secret") {
-  let old = document.getElementById("secretGame");
-  if (!old) {
-    const grid = document.getElementById("gameGrid");
 
-    const card = document.createElement("div");
-    card.className = "game-card";
-    card.id = "secretGame";
-
-    card.innerHTML = `
-      <img src="https://ubg42.github.io/EscapeRoad2/25050801/loading.png">
-      <h3>Escape Road 2</h3>
-    `;
-
-    card.onclick = function () {
-      openGame(
-        "https://ubg42.github.io/EscapeRoad2/",
-        "Google Docs"
-      );
-    };
-
-    grid.prepend(card);
-  }
-} else {
-  const old = document.getElementById("secretGame");
-  if (old) old.remove();
-}
 
   // Filter game cards
   gameCards.forEach((card) => {
@@ -1369,7 +1342,60 @@ if (query === "secret") {
     } else {
       card.style.display = title.includes(query) ? "" : "none";
     }
+  });// SECRET GAMES
+if (query === "secret") {
+
+  const grid = document.getElementById("gameGrid");
+
+  const secrets = [
+    {
+      id: "secret1",
+      name: "Escape Road 2",
+      img: "https://ubg42.github.io/EscapeRoad2/25050801/loading.png",
+      url: "https://ubg42.github.io/EscapeRoad2/"
+    },
+    {
+      id: "secret2",
+      name: "Rabbit Samurai",
+      img: "https://ubg42.github.io/img/RabbitSamurai.jpg",
+      url: "https://ubg42.github.io/RabbitSamurai/"
+    },
+    {
+      id: "secret3",
+      name: "Rabbit Samurai 2",
+      img: "https://ubg42.github.io/img/RabbitSamurai2.jpg",
+      url: "https://ubg42.github.io/RabbitSamurai2/"
+    }
+  ];
+
+  secrets.forEach(game => {
+    if (!document.getElementById(game.id)) {
+
+      const card = document.createElement("div");
+      card.className = "game-card";
+      card.id = game.id;
+
+      card.innerHTML = `
+        <img src="${game.img}" alt="${game.name}">
+        <h3>${game.name}</h3>
+      `;
+
+      card.onclick = function () {
+        openGame(game.url, "Google Docs");
+      };
+
+      grid.appendChild(card); // keeps the order
+    }
   });
+
+} else {
+
+  ["secret1","secret2","secret3"].forEach(id => {
+    const old = document.getElementById(id);
+    if (old) old.remove();
+  });
+
+}
 
   // Change background based on trigger
   body.style.backgroundImage = backgrounds[query] || backgrounds.default;
