@@ -432,7 +432,7 @@ https://ubg42.github.io/html5/ragollhit.html
 
 https://ubg42.github.io/html5/solarsmash.html
 
-https://ubg42.github.io/html5/gdlite.html
+https://ubg42.github.io/GeometryDashLite/
 
 https://ubg42.github.io/toca-boca/games/toca/life-unlimited/
 
