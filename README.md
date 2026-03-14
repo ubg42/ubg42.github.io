@@ -464,9 +464,9 @@ https://ubg42.github.io/EscapeRoad2/
 
 https://ubg42.github.io/Minesweeper/
 
-"https://ubg42.github.io/EscapeRoadCity2/"
+https://ubg42.github.io/EscapeRoadCity2/
 
-"https://ubg42.github.io/EscapeRoadWinter/"	
+https://ubg42.github.io/EscapeRoadWinter/
 
 FOR THE GAMES!!!!!!
 
