@@ -468,6 +468,18 @@ https://ubg42.github.io/EscapeRoadWinter/
 
 https://ubg42.github.io/Minesweeper
 
+https://ubg42.github.io/JetpackJoyride/
+
+https://ubg42.github.io/Pacman/
+
+https://ubg42.github.io/SuperFowlst/
+
+https://ubg42.github.io/SuperFowlst2/
+
+https://ubg42.github.io/gam3z/dadish/
+
+https://ubg42.github.io/gam3z/dune/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
