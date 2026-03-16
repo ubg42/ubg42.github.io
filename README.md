@@ -22,7 +22,7 @@ https://paperio-2.github.io/a9/paper-io-2/
 
 https://lnahtml.github.io/a/stickman-hook/
 
-https://ovo-game.github.io/o/ovo/
+https://ubg42.github.io/OvO/
 
 https://lekug.github.io/tn6pS9dCf37xAhkJv/
 
