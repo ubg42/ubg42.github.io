@@ -466,6 +466,8 @@ https://ubg42.github.io/EscapeRoadCity2/
 
 https://ubg42.github.io/EscapeRoadWinter/
 
+https://ubg42.github.io/Minesweeper
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
