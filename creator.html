@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google Docs</title>
+	<meta name="description" content="ubg42 Play Games Here, Over 200+ Games Available Including Slope, Soflo Wheelie Life, Among Us, and More!"/>
+  <link rel="shortcut icon" href="Docs.ico" type="image/ico">
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-image: url("red.png");
+      overflow-y: auto;
+    }
+
+    header {
+      background: #007fff;
+      padding: 10px 20px;
+      color: white;
+      position: relative;
+      height: 60px;
+    }
+
+    #searchBar {
+      font-size: 16px;
+      padding: 6px 10px;
+      border-radius: 5px;
+      border: none;
+      width: 200px;
+      position: absolute;
+      top: 25px;
+      left: 20px;
+    }
+
+    .button  {
+      font-size: 28px;
+      position: absolute;
+      top: 18px;
+      left: 320px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .form {
+      font-size: 28px;
+      text-decoration: underline;
+      position: absolute;
+      top: 5px;
+      left: 700px;
+      text-align: right;
+	  cursor: pointer;
+    }
+
+    .game-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .game-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+
+    .game-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .game-card h3 {
+      margin: 10px;
+    }
+
+    footer {
+      background: #007fff;
+      color: white;
+      text-align: center;
+      padding: 15px 20px;
+      font-size: 16px;
+    }
+
+    .footer-text {
+      margin: 0;
+    }
+	
+    .phone, .ipad {
+    color: white;    
+    }
+	    button {
+      padding: 2px 7px;
+      font-size: 2px;
+      border: 2px solid white;
+      border-radius: 10px;
+      background: #0078ff;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+        .button:hover {
+      transform: scale(1.02);
+    }
+  </style>
+  
+</head>
+<body>
+
+<header>
+  <input type="text" id="searchBar" placeholder="Search games..." />
+
+  <div onclick="openGame('https://forms.gle/ZYKZRc22eHcmx6Kt6', 'Google Docs')">
+    <h1 class="form">Report Problem/Game Suggestion</h1>
+  </div>
+
+  <button onclick="openRandom()" class="button">🎮 Play Random Game</button>
+</header>
+<div class="game-grid" id="gameGrid">
+    <div class="game-card" onclick="openGame('https://slopenexus.github.io/games/v1.2.5/index.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6s6a6emcwYQe1rYlhZTqGy1tAPalZkkldw&s" alt="Slope">
+		<h3>Slope</h3>
+	  </div>
+  <div class="game-card" onclick="openGame('https://lekug.github.io/tn6pS9dCf37xAhkJv/', 'Google Docs')">
+		<img src="https://nvshs.github.io/games/assets/run3.png" alt="Run 3">
+		<h3>Run 3</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://motox3m.gitlab.io/x3m-1.20.1p/', 'Google Docs')">
+		<img src="https://motox3m-free.github.io/data/image/game/moto-x3m-banner-game2.png" alt="Moto X3M">
+		<h3>Moto X3M</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://gswitch3.github.io/g/eggy-car', 'Google Docs')">
+		<img src="https://avatars.githubusercontent.com/u/193616620?s=280&v=4" alt="Eggy Car">
+		<h3>Eggy Car</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://tataedu23.github.io/g22/class-491/', 'Google Docs')">
+		<img src="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/9b739087f9938fb143a2519252addbb8.png" alt="Red Ball 4">
+		<h3>Red Ball 4</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Appel.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZTNaAH95Ne1gJ-4qgsF8TB9m8yheOJTMFA&s" alt="Appel">
+		<h3>Appel</h3>
+	</div>
+       <div class="game-card" onclick="openGame('https://d294gk6z3w9l13.cloudfront.net/games/cluster-rush/index.html', 'Google Docs')">
+		<img src="https://goflogames.github.io/images/cluster-rush.png" alt="Cluster Rush">
+		<h3>Cluster Rush</h3>
+	</div>
+	  <div class="game-card" onclick="openGame('https://htmlxm.github.io/h/moto-x3m-spooky-land/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/moto-x3m-spooky-land.png" alt="Moto X3M Spooky Land">
+		<h3>Moto X3M Spooky Land</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://htmlxm.github.io/h/moto-x3m-winter/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/moto-x3m-winter.png" alt="Moto X3M Winter">
+		<h3>Moto X3M Winter</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g97/class-412/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEGMLdNS1tboHsHOeVkMCTpheInmjbUkoFXA&s" alt="Dreadhead Parkour">
+		<h3>Dreadhead Parkour</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/SofloWheelieLife.html', 'Google Docs')">
+		<img src="https://play-lh.googleusercontent.com/yCR1xVXPOFr39G4khGi-GpL24R9IkHOEye11HIzdANtwdl6KMn-qvZsPIYA_lWtfn3RG=w526-h296-rw" alt="SofloWheelieLife">
+		<h3>SofloWheelieLife</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://tataedu23.github.io/g22/class-358/', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-358.png" alt="Flip Bros">
+		<h3>Flip Bros</h3>
+	</div>
+	    <div class="game-card" onclick="openGame('https://tataedu23.github.io/g177/class-334/', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-334.png" alt="Bacon May Die">
+		<h3>Bacon May Die</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Gold_Miner.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Gold_Miner.jpg" alt="Gold Miner">
+		<h3>Gold Miner</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Gold_Miner_Special_Edition.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Gold_Miner_Special_Edition.png" alt="Gold Miner: Special Edition">
+		<h3>Gold Miner: Special Edition</h3>
+	</div>
+		
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/EscapeRoad2/', 'Google Docs')">
+		<img src="https://ubg42.github.io/EscapeRoad2/25050801/loading.png" alt="Escape Road 2">
+		<h3>Escape Road 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/EscapeRoadCity2/', 'Google Docs')">
+		<img src="https://ubg42.github.io/EscapeRoadCity2/25030706/loading.png" alt="Escape Road City 2">
+		<h3>Escape Road City 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/gam3z/dune/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Dune.jpg" alt="Dune">
+		<h3>Dune</h3>
+	</div>
+</div>
+
+<footer>
+  <p class="footer-text">Contact: ubg423@gmail.com 
+  </p>
+    <p class="footer-text">© 2026 All rights reserved.
+  </p>
+</footer>
+<script>
+function openGame(url, title) {
+  var newTab = window.open('about:blank', '_blank');
+  newTab.document.write(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Google Docs</title>
+      <style>
+        body { margin: 0; overflow: hidden; }
+        iframe { width: 100vw; height: 100vh; border: none; }
+      </style>
+    </head>
+    <body>
+      <iframe src="${url}" frameborder="0"></iframe>
+    </body>
+    </html>
+  `);
+  newTab.document.close();
+}
+</script>
+</body>
+</html>   
