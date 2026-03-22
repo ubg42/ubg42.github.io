@@ -480,6 +480,28 @@ https://ubg42.github.io/gam3z/dadish/
 
 https://ubg42.github.io/gam3z/dune/
 
+https://ubg42.github.io/DontFindTheFox/
+
+https://ubg42.github.io/Sandtris/
+	  
+https://ubg42.github.io/Flappy2048/
+
+https://ubg42.github.io/ColorMatch/
+
+https://ubg42.github.io/StretchGuy/
+
+https://ubg42.github.io/PlanetCompare/
+
+https://ubg42.github.io/Simon/
+
+https://ubg42.github.io/Penga/
+
+https://ubg42.github.io/DogPooGolf/
+
+https://ubg42.github.io/FruitMerge/
+
+https://ubg42.github.io/JellyMario/	
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
