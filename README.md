@@ -361,7 +361,7 @@ https://ubg42.github.io/file/Bartender_The_Right_Mix.html
 https://ubg42.github.io/file/Motherload.html
 
 https://ubg42.github.io/file/Line_Rider_2.html
-	  
+
 https://ubg42.github.io/file/Age_Of_War.html
 
 https://tataedu23.github.io/g177/class-334/
@@ -369,9 +369,9 @@ https://tataedu23.github.io/g177/class-334/
 https://ubg42.github.io/file/Gold_Miner.html
 
 https://ubg42.github.io/file/The_Impossible_Quiz_2.html
-	   
+ 
 https://ubg42.github.io/file/Super_Smash_Flash.html
-	  
+
 https://ubg42.github.io/file/Gold_Miner_Special_Edition.html
 
 https://ubg42.github.io/file/Free-Rider.html
@@ -397,7 +397,7 @@ https://ubg42.github.io/file/Duck_Life_1.html
 https://ubg42.github.io/file/Duck_Life_2.html
 
 https://ubg42.github.io/file/Duck_Life_3.html
-	  
+
 https://ubg42.github.io/file/Duck_Life_4.html
 
 https://tylerpalko.github.io/gamehub/basketrandom/
@@ -455,7 +455,7 @@ https://ubg424.github.io/game/1.3/
 https://ubg42.github.io/file/Mcdonalds.html
 
 https://ubg42.github.io/Gamezz/idle-lumber-inc/
-	  
+
 https://ubg42.github.io/LevelDevil2
 
 https://ubg42.github.io/EscapeRoad2/
@@ -483,7 +483,7 @@ https://ubg42.github.io/gam3z/dune/
 https://ubg42.github.io/DontFindTheFox/
 
 https://ubg42.github.io/Sandtris/
-	  
+
 https://ubg42.github.io/Flappy2048/
 
 https://ubg42.github.io/ColorMatch/
@@ -501,6 +501,34 @@ https://ubg42.github.io/DogPooGolf/
 https://ubg42.github.io/FruitMerge/
 
 https://ubg42.github.io/JellyMario/	
+
+ https://ubg42.github.io/game/papas-freezeria.html
+
+https://ubg42.github.io/game/papas_bakeria.html
+
+https://ubg42.github.io/game/papas_burgeria.html
+
+https://ubg42.github.io/game/papas_cheeseria.html
+
+https://ubg42.github.io/game/papas_cupcakeria.html
+
+https://ubg42.github.io/game/papas_donuteria.html
+
+https://ubg42.github.io/game/papas_hotdoggeria.html
+
+https://ubg42.github.io/game/papas_pancakeria.html
+
+https://ubg42.github.io/game/papas_pastaria.html
+
+https://ubg42.github.io/game/papas_pizzeria.html
+
+https://ubg42.github.io/game/papas_scooperia.html
+
+https://ubg42.github.io/game/papas_sushiria.html
+
+https://ubg42.github.io/game/papas_taco_mia.html
+
+https://ubg42.github.io/game/papas_wingeria.html
 
 FOR THE GAMES!!!!!!
 
