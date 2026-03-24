@@ -530,6 +530,8 @@ https://ubg42.github.io/game/papas_wingeria.html
 
 https://ubg42.github.io/SurvivalRace/
 
+https://ubg42.github.io/hd_fnaf/1/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
