@@ -268,8 +268,6 @@ https://unblocked-games-onlines.github.io/u3/tag/
 
 https://dnrweqffuwjtx.cloudfront.net/games/2024/code/6/get-on-top/index.html
 
-https://dnrweqffuwjtx.cloudfront.net/games/2024/unity3/survival-karts/index.html
-
 https://tataedu23.github.io/g68/class-1128
 
 https://tataedu23.github.io/g50/class-6
@@ -529,6 +527,8 @@ https://ubg42.github.io/game/papas_sushiria.html
 https://ubg42.github.io/game/papas_taco_mia.html
 
 https://ubg42.github.io/game/papas_wingeria.html
+
+https://ubg42.github.io/SurvivalRace/
 
 FOR THE GAMES!!!!!!
 
