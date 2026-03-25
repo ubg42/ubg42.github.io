@@ -10,7 +10,7 @@ https://slopenexus.github.io/games/v1.2.5/index.html
 
 https://ubg42.github.io/html5/tunnelrush.html
 
-https://8ballpoolonline.gitlab.io/file
+https://ubg42.github.io/8BallPool/
 
 https://flappybirdonline.gitlab.io/file/
 
