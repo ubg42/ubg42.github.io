@@ -18,7 +18,7 @@ https://snow-rider3d.github.io/file/
 
 https://lnahtml.github.io/a8/subway-surfers-newyork/
 
-https://paperio-2.github.io/a9/paper-io-2/
+https://ubg42.github.io/Paperio2/
 
 https://lnahtml.github.io/a/stickman-hook/
 
