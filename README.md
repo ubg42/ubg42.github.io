@@ -530,10 +530,24 @@ https://ubg42.github.io/game/papas_wingeria.html
 
 https://ubg42.github.io/SurvivalRace/
 
-https://ubg42.github.io/hd_fnaf/1/
-
 https://ubg42.github.io/MadalinStuntCarsMultiplayerNew/
 
+https://ubg42.github.io/hd_fnaf/1/
+
+https://ubg42.github.io/hd_fnaf/2/
+
+https://ubg42.github.io/hd_fnaf/3/
+
+https://ubg42.github.io/hd_fnaf/4/
+
+https://ubg42.github.io/hd_fnaf/w/
+
+https://ubg42.github.io/hd_fnaf/sl/
+
+https://ubg42.github.io/hd_fnaf/ps/
+
+https://ubg42.github.io/hd_fnaf/ucn/
+	  
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
