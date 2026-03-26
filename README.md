@@ -532,6 +532,8 @@ https://ubg42.github.io/SurvivalRace/
 
 https://ubg42.github.io/hd_fnaf/1/
 
+https://ubg42.github.io/MadalinStuntCarsMultiplayerNew/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
