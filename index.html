@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- For anyone looking at the code the new website is ubg42.github.io/changes-->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -28,7 +27,7 @@
       padding: 6px 10px;
       border-radius: 5px;
       border: none;
-      width: 250px;
+      width: 200px;
       position: absolute;
       top: 25px;
       left: 20px;
@@ -112,27 +111,1081 @@
         .button:hover {
       transform: scale(1.02);
     }
-	.fool {
-    color: white;
-	font-size: 20px;
-  }
   </style>
   
 </head>
 <body>
 
 <header>
-  <input type="text" id="searchBar" placeholder="Yeah the search wont work either..."/>
+  <input type="text" id="searchBar" placeholder="Search games..." />
 
-  <div>
-    <h1 class="form">Cant even request games</h1>
+  <div onclick="openGame('https://forms.gle/b53uymX4bqTLdSM36', 'Google Docs')">
+    <h1 class="form">Report Problem/Game Suggestion</h1>
   </div>
 
-  <button onclick="openRandom()" class="button">Or This, You cant click it</button>
+  <button onclick="openRandom()" class="button">🎮 Play Random Game</button>
 </header>
-<p class="fool">Im Sorry There Are No Games Available. APRIL FOOLS. Just Kidding Heres the changed website for today! <a class=fool href="video.html" target="_blank">The NEW Game Website!</a> </p>
-<p class="fool">For anyone wanting to play Survival Race Click <a class=fool href="https://ubg42.github.io/SurvivalRace/" target="_blank">HERE!</a> </p>
+<div class="game-grid" id="gameGrid">
+    <div class="game-card" onclick="openGame('https://fridaynight-funkin.github.io/f6/stickman-bike/', 'Google Docs')">
+      <img src="https://fridaynight-funkin.github.io/imgs/stickman-bike.png" alt="Stickman Bike">
+      <h3>Stickman Bike</h3>
+    </div>
 
+    <div class="game-card" onclick="openGame('https://htmlxm.github.io/h7/moto-road-rash-3d/', 'Google Docs')">
+      <img src="https://htmlxm.github.io/thumb/moto-road-rash-3d.png" alt="Moto Road Rash 3D">
+      <h3>Moto Road Rash 3D</h3>
+    </div>
+
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/The_Impossible_Quiz.html', 'Google Docs')">
+		<img src="https://gswitch3.github.io/imgs/the-impossible-quiz.png" alt="The Impossible Quiz">
+		<h3>The Impossible Quiz</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/The_Impossible_Quiz_Hacked.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/The_Impossible_Quiz_Hacked.jpg" alt="The Impossible Quiz Hacked">
+		<h3>The Impossible Quiz Hacked</h3>
+	</div>
+	<div class="game-card" onclick="openGame('https://slopenexus.github.io/games/v1.2.5/index.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6s6a6emcwYQe1rYlhZTqGy1tAPalZkkldw&s" alt="Slope">
+		<h3>Slope</h3>
+	  </div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/html5/tunnelrush.html', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/tunnel-rush.png" alt="Tunnel Rush">
+		<h3>Tunnel Rush</h3>
+	</div>
+	  <div class="game-card" onclick="openGame('https://ubg42.github.io/8BallPool/', 'Google Docs')">
+		<img src="https://ubg42.github.io/8BallPool/8BallPool.jpg" alt="8 Ball Pool">
+		<h3>8 Ball Pool</h3>
+	  </div>
+	  <div class="game-card" onclick="openGame('https://flappybirdonline.gitlab.io/file/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfNCp_pCEMI-hylDErnfP5Jg17I94ygxd7Eg&s" alt="Flappy Bird">
+		<h3>Flappy Bird</h3>
+	</div>
+	<div class="game-card" onclick="openGame('https://snow-rider3d.github.io/file/', 'Google Docs')">
+		<img src="https://snowrider-3dgame.github.io/rs/imgs/snow-rider-3d.jpg" alt="Snow Rider 3D">
+		<h3>Snow Rider 3D</h3>
+	</div>
+	<div class="game-card" onclick="openGame('https://lnahtml.github.io/a8/subway-surfers-newyork/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtAZ73VpuKTUh2ucdowpHPrgneVzxea3Qdbg&s" alt="Subway Surfers">
+		<h3>Subway Surfers</h3>
+	</div>
+	<div class="game-card" onclick="openGame('https://ubg42.github.io/Paperio2/', 'Google Docs')">
+		<img src="https://play-lh.googleusercontent.com/SWTpYqsX9RN2YirCDnAjQ8qsbgn4UrHkRRGsjwuASnHMVqssIvWKzq82mP82y_ffBSE" alt="Paper.io 2">
+		<h3>Paper.io 2</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://lnahtml.github.io/a/stickman-hook/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/stickman-hook.png" alt="Stickman Hook">
+		<h3>Stickman Hook</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ovo-game.github.io/o/ovo/', 'Google Docs')">
+		<img src="https://ovo-classic.github.io/assets/img/img1.png" alt="OvO">
+		<h3>OvO</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://lekug.github.io/tn6pS9dCf37xAhkJv/', 'Google Docs')">
+		<img src="https://nvshs.github.io/games/assets/run3.png" alt="Run 3">
+		<h3>Run 3</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://tomb-ofthe-mask.github.io/file/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/tomb-of-the-mask.png" alt="Tomb Of The Mask">
+		<h3>Tomb Of The Mask</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://motox3m.gitlab.io/x3m-1.20.1p/', 'Google Docs')">
+		<img src="https://motox3m-free.github.io/data/image/game/moto-x3m-banner-game2.png" alt="Moto X3M">
+		<h3>Moto X3M</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ovo-game.github.io/o/among-us/', 'Google Docs')">
+		<img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg" alt="Among Us">
+		<h3>Among Us</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Eaglercraft-112.htm', 'Google Docs')">
+		<img src="https://www.pluggedin.com/wp-content/uploads/2020/01/minecraft-review-image-1024x587.jpg" alt="Eaglercraft 1.12.2">
+		<h3>Eaglercraft 1.12.2</h3>
+  </div>
+  <div class="game-card" onclick="openGame('https://elastic-man-online.github.io/file/', 'Google Docs')">
+		<img src="https://23azostore.github.io/img/elastic-man.png" alt="Elastic Man">
+		<h3>Elastic Man</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://gswitch3.github.io/g/eggy-car', 'Google Docs')">
+		<img src="https://avatars.githubusercontent.com/u/193616620?s=280&v=4" alt="Eggy Car">
+		<h3>Eggy Car</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://xoriushourz.github.io/CookieClicker/', 'Google Docs')">
+		<img src="https://avatars.githubusercontent.com/u/193064623?s=280&v=4" alt="Cookie Clicker">
+		<h3>Cookie Clicker</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://tataedu23.github.io/g72/class-638/', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-638.png" alt="Shell Jump">
+		<h3>Shell Jump</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/RagdollArchers/', 'Google Docs')">
+		<img src="https://play-lh.googleusercontent.com/JpM37b8IM7OslxU1LnKuSc_4wEPy26DFsN3tXkmRl3-XiTmOroCxk_kkru2d66IM1g=w526-h296-rw" alt="Ragdoll Archers">
+		<h3>Ragdoll Archers</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://bloons-towerdefense.github.io/file/', 'Google Docs')">
+		<img src="https://user-images.githubusercontent.com/98196770/167235352-8427d358-0f57-4150-b696-0494a22f8ea6.PNG" alt="Bloons Tower Defense">
+		<h3>Bloons Tower Defense</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://getting-overit.github.io/file/', 'Google Docs')">
+		<img src="https://goflogames.github.io/images/getting-over-it.png" alt="Getting Over It">
+		<h3>Getting Over It</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg89.github.io/Bloxorz/', 'Google Docs')">
+		<img src="https://user-content.gitlab-static.net/57a1e81f81e5175f67e22061e46e41eec1226d50/687474703a2f2f6a70672e686f6f64616d6174682e636f6d2f6c617267652f626c6f786f727a5f333030783232352e6a7067" alt="Bloxorz">
+		<h3>Bloxorz</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/moneyclicker.png" alt="Money Clicker">
+		<h3>Money Clicker</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://snail-bob.github.io/games/snail-bob/index.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTatFe_hCokL0bOJ7ZNZ-hhhMdMBKoK_B9V4w&s" alt="Snail Bob">
+		<h3>Snail Bob</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://lnahtml.github.io/a77/drive-mad/', 'Google Docs')">
+		<img src="https://roblox-unblock.github.io/thumb/drive-mad.png" alt="Drive Mad">
+		<h3>Drive Mad</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://23azostore.github.io/s8/temple-run-2/', 'Google Docs')">
+		<img src="https://23azostore.github.io/img/temple-run-2.png" alt="Temple Run 2">
+		<h3>Temple Run 2</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://reunbozdo.github.io/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipjeFwrPOfnoCIMSd7jLaMLNpoWn4DZbRqA&s" alt="Block Blast">
+		<h3>Block Blast</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://tataedu23.github.io/g22/class-491/', 'Google Docs')">
+		<img src="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/9b739087f9938fb143a2519252addbb8.png" alt="Red Ball 4">
+		<h3>Red Ball 4</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://trafficjam3d.github.io/traffic-jam-3d/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jc36iddVhA6yh8KXrs0PL2ofHSWJtcGu3Q&s" alt="Traffic Run 3D">
+		<h3>Traffic Run 3D</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://unblocked-games-onlines.github.io/u6/penalty-shooters-2/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/penalty-shooters-2.png" alt="Penalty Shooters 2">
+		<h3>Penalty Shooters 2</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://gswitch3.github.io/g/tiny-fishing/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/tiny-fishing.png" alt="Tiny Fishing">
+		<h3>Tiny Fishing</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://23azostore.github.io/s4/gold-digger-frvr/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/gold-digger-frvr.png" alt="Gold Digger FRVR">
+		<h3>Gold Digger FRVR</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://there-is-no-game.github.io/a/there-is-no-game/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl19wbjVZcBXUpnM57u-Oeb3af02VProa6QQ&s" alt="There Is No Game!">
+		<h3>There Is No Game!</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Flash-Sonic.html', 'Google Docs')">
+		<img src="https://coolunblockedgames.github.io/images/games-512/ultimate-flash-sonic.png" alt="Flash Sonic">
+		<h3>Flash Sonic</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://htmlxm.github.io/h/raft-wars/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5r-oT16xxNncL3IvjdqcmnmsJVguEWj8i2g&s" alt="Raft Wars">
+		<h3>Raft Wars</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://23azostore.github.io/s2/stack/', 'Google Docs')">
+		<img src="https://androidcommunity.com/wp-content/uploads/2016/02/featured-stack.jpg" alt="Stack">
+		<h3>Stack</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://abinbins.github.io/a7/master-chess/', 'Google Docs')">
+		<img src="https://abinbins.github.io/thumb/master-chess.png" alt="Master Chess">
+		<h3>Master Chess</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://narrow-one.github.io/n6/rocket-soccer-derby/', 'Google Docs')">
+		<img src="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/e521bbbf13a6480b60d75421e7edc8d8d0e1edadaccd7d43438864b62a74088a.png" alt="Rocket Soccer Derby">
+		<h3>Rocket Soccer Derby</h3>
+	</div>
+	    	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Bob_The_Robber.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Bob_The_Robber.jpg" alt="Bob The Robber">
+		<h3>Bob The Robber</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://bobtherobberunblocked.github.io/2/', 'Google Docs')">
+		<img src="https://bobtherobberunblocked.github.io/2/34d6aae0257d4e4c8068cbdfc11a8758-512x512.jpeg" alt="Bob The Robber 2">
+		<h3>Bob The Robber 2</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://23azostore.github.io/s7/bob-the-robber-4/', 'Google Docs')">
+		<img src="https://kizicdn.com/system/static/thumbs/big_tile_thumb/1896/thumb300_Thumb_300x300.jpg?1556203392" alt="Bob The Robber 4">
+		<h3>Bob The Robber 4</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Appel.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZTNaAH95Ne1gJ-4qgsF8TB9m8yheOJTMFA&s" alt="Appel">
+		<h3>Appel</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Geometry-Dash.html', 'Google Docs')">
+		<img src="https://assets-prd.ignimgs.com/2021/12/14/geometrydash-1639510868467.jpg" alt="Geometry Dash">
+		<h3>Geometry Dash</h3>
+	</div>
+		  	  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Geometry-Dash-Meltdown.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Geometry-Dash-Meltdown.png" alt="Geometry Dash Meltdown">
+		<h3>Geometry Dash Meltdown</h3>
+	</div>
+			<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Geometry_Dash_Subzero.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Geometry_Dash_Subzero.png" alt="Geometry Dash Subzero">
+		<h3>Geometry Dash Subzero</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Geometry_Dash_World_Toxic_Factory.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Geometry_Dash_World_Toxic_Factory.png" alt="Geometry Dash World Toxic Factory">
+		<h3>Geometry Dash World Toxic Factory</h3>
+	</div>
+			<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/gdlite.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/gdlite.jpg" alt="Geometry Dash Lite">
+		<h3>Geometry Dash Lite</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://soccerlegends.github.io/soccer-legends/', 'Google Docs')">
+		<img src="https://soccerlegends.github.io/soccer-legends/logo.png" alt="Soccer Legends 2021">
+		<h3>Soccer Legends 2021</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/html5/basketballstars.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/basetballstars.png" alt="Basketball Stars">
+		<h3>Basketball Stars</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://ubg42.github.io/Drift-Hunters/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/drift-hunters.png" alt="Drift Hunters">
+		<h3>Drift Hunters</h3>
+	</div>
+	  <div class="game-card" onclick="openGame('https://smash-kartsonline.github.io/g16/class-419/', 'Google Docs')">
+		<img src="https://abinbins.github.io/thumb/blumgi-ball.png" alt="Blumgi Ball">
+		<h3>Blumgi Ball</h3>
+	  </div>
+  <div class="game-card" onclick="openGame('https://howdoyouspellcomputers.github.io/paperminecraftoffical/', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/paper-minecraft.png" alt="Paper Minecraft">
+		<h3>Paper Minecraft</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://d294gk6z3w9l13.cloudfront.net/games/cluster-rush/index.html', 'Google Docs')">
+		<img src="https://goflogames.github.io/images/cluster-rush.png" alt="Cluster Rush">
+		<h3>Cluster Rush</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://google-snakegame.github.io/g22/class-356/', 'Google Docs')">
+		<img src="https://just-falllol.github.io/img/level-devil.png" alt="Level Devil - NOT A Troll Game">
+		<h3>Level Devil - NOT A Troll Game</h3>
+	</div>
+  <div class="game-card" onclick="openGame('https://driftboss-online.github.io/file/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBG-2X33CHcjvslET5cxXckS3bowivZuX5CA&s" alt="Drift Boss">
+		<h3>Drift Boss</h3>
+	</div>
+        <div class="game-card" onclick="openGame('https://ubg77.github.io/pixel-shooter/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBOq67s-JdD64Iye43DLoonkaTdEVN0IIALg&s" alt="Pixel Shooter">
+		<h3>Pixel Shooter</h3>
+	</div>
+	  <div class="game-card" onclick="openGame('https://smashkartsonlinegames.github.io/v/moto-x3m-pool-party/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiAj9xk1ou8EsWoOC0ZmdO6hrSKq7AmaoDg&s" alt="Moto X3M Pool Party">
+		<h3>Moto X3M Pool Party</h3>
+	</div>	 
+	  <div class="game-card" onclick="openGame('https://htmlxm.github.io/h/moto-x3m-spooky-land/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/moto-x3m-spooky-land.png" alt="Moto X3M Spooky Land">
+		<h3>Moto X3M Spooky Land</h3>
+	</div>
+	  	  <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Scratchball-3D.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Scratchball-3D.png" alt="Scratchball 3D">
+		<h3>Scratchball 3D</h3>
+	</div>
+         <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Robux-Clicker.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Robux-Clicker.png" alt="Robux Clicker">
+		<h3>Robux Clicker</h3>
+	</div>
+	        <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Pen-Football-Mod.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Pen-Football-Mod.png" alt="Pen Soccer Mod">
+		<h3>Pen Soccer Mod</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://htmlxm.github.io/h/moto-x3m-winter/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/moto-x3m-winter.png" alt="Moto X3M Winter">
+		<h3>Moto X3M Winter</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Battle-Cats.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Battle-Cats.jpg" alt="Battle Cats">
+		<h3>Battle Cats</h3>
+	</div>
+	<div class="game-card" onclick="openGame('https://htmlxm.github.io/h4/crazy-cars/#topvaz', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/crazy-cars.png" alt="Crazy Cars">
+		<h3>Crazy Cars</h3>
+	  </div>
+	    	<div class="game-card" onclick="openGame('https://fridaynightfunkinweek7.github.io/', 'Google Docs')">
+		<img src="https://repository-images.githubusercontent.com/334747121/4019fe00-866b-11eb-9ceb-6bfdf0cc29f1" alt="Friday Night Funkin">
+		<h3>Friday Night Funkin'</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://mc0825.github.io/g20/class-402', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/CrossyRoad.jpg" alt="Crossy Road">
+		<h3>Crossy Road</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://narrow-one.github.io/n/top-speed-racing-3d/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/top-speed-racing-3d.png" alt="Top Speed Racing 3D">
+		<h3>Top Speed Racing 3D</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://monjeydaguineapig.github.io/WheelieBikeUnblocked/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGRaMIjlCZ4wBRKUGYIEYoqre19E9lm1Xp6kQdOPHLaVyD8IleYU1UZ7xs2_uWWnUnDQ8&usqp=CAU" alt="Wheelie Bike">
+		<h3>Wheelie Bike</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://motox3munblocked.github.io/2/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/moto-x3m-2.png" alt="Moto X3M 2">
+		<h3>Moto X3M 2</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g72/class-414/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/MonsterTracks.jpg" alt="Monster Tracks">
+		<h3>Monster Tracks</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://narrow-one.github.io/n88/angry-birds/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ44Lj_2PcYOhKuh1FftQdJk1JJlN5KMKwSg&s" alt="Angry Birds">
+		<h3>Angry Birds</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://webglmath.github.io/stickmerge/', 'Google Docs')">
+		<img src="https://antarttycoon.github.io/images/stickmerge.png" alt="Stick Merge">
+		<h3>Stick Merge</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://abinbins.github.io/a2/brain-test-tricky-puzzles/', 'Google Docs')">
+		<img src="https://23azostore.github.io/img/brain-test-tricky-puzzles.png" alt="Brain Test Tricky Puzzles">
+		<h3>Brain Test Tricky Puzzles</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://23azostore.github.io/s/house-of-hazards/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/house-of-hazards.png" alt="House Of Harzards">
+		<h3>House Of Harzards</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg77.github.io/drift-dudes/', 'Google Docs')">
+		<img src="https://ubg17.github.io/assets/img/games/drift-dudes.png" alt="Drift Dudes">
+		<h3>Drift Dudes</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://bosorioo.github.io/wordle-unlimited/', 'Google Docs')">
+		<img src="https://avatars.githubusercontent.com/u/212647672?s=200&v=4" alt="Wordle Unlimited">
+		<h3>Wordle Unlimited</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://play.unity.com/api/v1/games/game/2d5b38e5-9fc7-4402-9745-ec84dfd3b1a2/build/latest/frame', 'Google Docs')">
+		<img src="https://watermelondrop.github.io/images/icon_game.png" alt="Watermelon Drop">
+		<h3>Watermelon Drop</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://mountain658.github.io/g/fruitninja/fruitninja.html', 'Google Docs')">
+		<img src="https://repository-images.githubusercontent.com/185472865/794cc880-acfd-11ea-96c8-e6a9cc59471f" alt="Fruit Ninja">
+		<h3>Fruit Ninja</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://antarttycoon.github.io/game/index.html', 'Google Docs')">
+		<img src="https://antarttycoon.github.io/images/img.png" alt="Ant Art Tycoon">
+		<h3>Ant Art Tycoon</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://amhooman.github.io/website/games/retrobowl/game.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/RetroBowl.jpg" alt="Retro Bowl">
+		<h3>Retro Bowl</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/deal_or_no_deal.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Deal-Or-No-Deal.png" alt="Deal Or No Deal">
+		<h3>Deal Or No Deal</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://htmlxm.github.io/h/parking-fury/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/parking-fury.png" alt="Parking Fury">
+		<h3>Parking Fury</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://htmlxm.github.io/h4/demolition-derby-crash-racing/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/demolition-derby-crash-racing.png" alt="Demolition Derby Crash Racing">
+		<h3>Demolition Derby Crash Racing</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g97/class-455/', 'Google Docs')">
+		<img src="https://repository-images.githubusercontent.com/230809098/a96ad680-9b58-11ea-87fb-f659dfe92b9d" alt="Tetris">
+		<h3>Tetris</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g16/class-719/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/bike-trials-winter-1.png" alt="BT Winter">
+		<h3>BT Winter</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g177/class-336/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFtCb9ixGPdnZAiRFrKeJ6JszPZ5f0foTBug&s" alt="Super MX - The Champion">
+		<h3>Super MX - The Champion</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g16/class-599/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/bike-trials-winter-2.png" alt="BT Winter 2">
+		<h3>BT Winter 2</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g97/class-787/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/city-bike-stunt-2.png" alt="City Bike Stunt 2">
+		<h3>City Bike Stunt 2</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g177/class-281/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/StickmanFightRagdoll.png" alt="Stickman Fight Ragdoll">
+		<h3>Stickman Fight Ragdoll</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g97/class-412/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEGMLdNS1tboHsHOeVkMCTpheInmjbUkoFXA&s" alt="Dreadhead Parkour">
+		<h3>Dreadhead Parkour</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g69/class-653/', 'Google Docs')">
+		<img src="https://smashkartsonlinegames.github.io/imgs/super-tunnel-rush.png" alt="Super Tunnel Rush">
+		<h3>Super Tunnel Rush</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g3/class-724/', 'Google Docs')">
+		<img src="https://purepro4562.github.io/ubg9.github.io/assets/images/parkingfury3d/parking-fury-3d-beach-city-logo.webp" alt="Parking Fury 3D Beach City">
+		<h3>Parking Fury 3D Beach City</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g/class-808/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/ultimate-car-driving.png" alt="Ultimate Car Driving">
+		<h3>Ultimate Car Driving</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/FlipBottle/', 'Google Docs')">
+		<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/5d/c8/8e/5dc88e7e-ff03-a56f-9eb8-95c2cd6c4ac3/source/512x512bb.jpg" alt="Bottle Flip 3D">
+		<h3>Bottle Flip 3D</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tbg95.github.io/motox3m-3/game.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn8BOMDyK4eFG1VXu_TgTOOPu9gVETR8oWqw&s" alt="Moto X3M 3">
+		<h3>Moto X3M 3</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g5/class-569/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/b-cubed.png" alt="B-CUBED">
+		<h3>B-CUBED</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://23azostore.github.io/s2/big-shot-boxing/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/big-shot-boxing.png" alt="Big Shot Boxing">
+		<h3>Big Shot Boxing</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://gswitch3.github.io/g8/monkey-mart/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZuWb5WSSCvkt9thwKMJCmjM8q8-0SarJp-Q&s" alt="Monkey Mart">
+		<h3>Monkey Mart</h3>
+	</div>
+	        <div class="game-card" onclick="openGame('https://gswitch3.github.io/g5/idle-mining-empire/', 'Google Docs')">
+		<img src="https://antarttycoon.github.io/images/idle-mining-empire.png" alt="Idle Mining Empire">
+		<h3>Idle Mining Empire</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://htmlxm.github.io/h7/dinosaur-game/', 'Google Docs')">
+		<img src="https://repository-images.githubusercontent.com/395035783/64dbbfcd-51a7-44ca-92f3-36dc8364e4a8" alt="Dino Game">
+		<h3>Dino Game</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/worldshardestgame.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Worlds-Hardest-Game.jpg" alt="Worlds Hardest Game">
+		<h3>Worlds Hardest Game</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/worldshardestgame2.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/worldshardestgame2.jpg" alt="Worlds Hardest Game 2">
+		<h3>Worlds Hardest Game 2</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/worldshardestgame3.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/worldshardestgame3.jpg" alt="Worlds Hardest Game 3">
+		<h3>Worlds Hardest Game 3</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/worldshardestgame4.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/worldshardestgame4.png" alt="Worlds Hardest Game 4">
+		<h3>Worlds Hardest Game 4</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g16/class-413/', 'Google Docs')">
+		<img src="https://purepro4562.github.io/ubg9.github.io/assets/images/blumgirocket/blumgi-rocket.webp" alt="Blumgi Rocket">
+		<h3>Blumgi Rocket</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/gunspin.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/gunspin.jpg" alt="Gunspin">
+		<h3>Gunspin</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://gswitch3.github.io/g4/chicken-merge/', 'Google Docs')">
+		<img src="https://gswitch3.github.io/imgs/chicken-merge.png" alt="Chicken Merge">
+		<h3>Chicken Merge</h3>
+	</div>
+	  	  <div class="game-card" onclick="openGame('https://abinbins.github.io/a6/raft-wars-2/', 'Google Docs')">
+		<img src="https://abinbins.github.io/thumb/raft-wars-2.png" alt="Raft Wars 2">
+		<h3>Raft Wars 2</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://sz-games.github.io/Games4/stick-duel-battle/', 'Google Docs')">
+		<img src="https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/faefdd3c-4a77-4797-9917-1d49f40fab38/1308113706/stick-duel-battle-1d7959f081b4453498ee9916b693988c-1280x720.jpeg" alt="Stick Duel Battle">
+		<h3>Stick Duel Battle</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://h5.supergogame.com/wj/index.html?fromapp=skipbo&jump_type=local_app', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Clash_Of_Vikings.jpg" alt="Clash Of Vikings">
+		<h3>Clash Of Vikings</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://hva2021.github.io/cannon-basketball-4/index.html', 'Google Docs')">
+		<img src="https://mathsframe.github.io/alllogo/cannon-basketball-4/logo.jfif" alt="Cannon Basketball 4">
+		<h3>Cannon Basketball 4</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://hva2021.github.io/among-dash/index.html', 'Google Docs')">
+		<img src="https://mathsframe.github.io/alllogo/among-dash/logo.png" alt="Among Dash">
+		<h3>Among Dash</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://hva2021.github.io/DogeMiner/index.html', 'Google Docs')">
+		<img src="https://mathsframe.github.io/alllogo/DogeMiner/logo.jpg" alt="DogeMiner">
+		<h3>DogeMiner</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://paveldogreat.github.io/WebGL-Fluid-Simulation/', 'Google Docs')">
+		<img src="https://i0.wp.com/www.lessonsindesign.com/wp-content/uploads/2020/09/Fluid-simulation-creative-break.jpg?resize=1200%2C581&ssl=1" alt="Fluid Simulation">
+		<h3>Fluid Simulation</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://narrow-one.github.io/n88/jacksmith/jacksmith.html', 'Google Docs')">
+		<img src="https://jacksmith-unblocked.github.io/images/icon_game.png" alt="JackSmith">
+		<h3>JackSmith</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://sz-games.github.io/Games11/track/index.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaAeqNVn6DN7xFAuzQJfQZIk3TRYau0llQXQ&s" alt="Polytrack">
+		<h3>Polytrack</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/PVZ.html', 'Google Docs')">
+		<img src="https://raw.githubusercontent.com/MohamedMedhat21/PlantsVSZombies/master/screenshots/Welcome.png" alt="Plants Vs Zombies">
+		<h3>Plants Vs Zombies</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/learn-to-fly.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/LearntoFly.jpg" alt="Learn To Fly">
+		<h3>Learn To Fly</h3>
+	</div>
+		  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/learn_to_fly_2.html', 'Learn To Fly 2')">
+		<img src="https://ubg42.github.io/file/learntofly2.jpg" alt="Learn To Fly 2">
+		<h3>Learn To Fly 2</h3>
+	</div>
+	 <div class="game-card" onclick="openGame('https://ubg42.github.io/file/Learn_To_Fly_3.html', 'Learn To Fly 3')">
+		<img src="https://ubg42.github.io/file/Learn_To_Fly_3.jpg" alt="Learn To Fly 3">
+		<h3>Learn To Fly 3</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Learn_To_Fly_idle.html', 'Learn To Fly Idle')">
+		<img src="https://ubg42.github.io/file/Learn_To_Fly_idle.jpg" alt="Learn To Fly Idle">
+		<h3>Learn To Fly Idle</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Portal_flash_version.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Portal_flash_version.png" alt="Portal Flash Version">
+		<h3>Portal Flash Version</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/escapingtheprisongame.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/EscapingThePrison.jpg" alt="Escaping The Prison">
+		<h3>Escaping The Prison</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/breaking_the_bank.html', 'Google Docs')">
+		<img src="https://trampoline.turbowarp.org/thumbnails/450606096" alt="Breaking The Bank">
+		<h3>Breaking The Bank</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/stealing_the_diamond.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/stealing_the_diamond.jpg" alt="Stealing The Diamond">
+		<h3>Stealing The Diamond</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g16/class-655/', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-655.png" alt="Cars Thief">
+		<h3>Cars Thief</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://play.unity.com/api/v1/games/game/5246a951-75b0-40e4-ab5a-ca531614f76b/build/latest/frame', 'Google Docs')">
+		<img src="https://baldis-basics-online.github.io/img/baldis-basics.png" alt="Baldi's Basics">
+		<h3>Baldi's Basics</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://tataedu23.github.io/g72/class-625/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/highway-traffic.png" alt="Highway Traffic 3D">
+		<h3>Highway Traffic 3D</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/jellydad_hero.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/jellydad_hero.jpg" alt="Jellydad Hero">
+		<h3>Jellydad Hero</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://unblocked-games-onlines.github.io/u3/tag/', 'Google Docs')">
+		<img src="https://gswitch3.github.io/imgs/tag.png" alt="Tag">
+		<h3>Tag</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://dnrweqffuwjtx.cloudfront.net/games/2024/code/6/get-on-top/index.html', 'Google Docs')">
+		<img src="https://construct-static.com/uploads/258601/019fb5c4-cfff-4f3c-94ed-bca23cdb47c2/400x270.jpg" alt="Get On Top">
+		<h3>Get On Top</h3>
+	</div>
+			<div class="game-card" onclick="openGame('https://tataedu23.github.io/g68/class-1128', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-1128.png" alt="Pogo Penguin">
+		<h3>Pogo Penguin</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://tataedu23.github.io/g50/class-6', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-6.png" alt="Stickman Archero Fight">
+		<h3>Stickman Archero Fight</h3>
+	</div>
+        <div class="game-card" onclick="openGame('https://tataedu23.github.io/g97/class-482', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-482.png" alt="Basket Bros">
+		<h3>Basket Bros</h3>
+	</div>
+	    <div class="game-card" onclick="openGame('https://tataedu23.github.io/g9/class-420', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-420.png" alt="Gobble">
+		<h3>Gobble</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://jan25.github.io/f1-lights', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/F1-Reaction-Test.png" alt="F1 Reaction Test">
+		<h3>F1 Reaction Test</h3>
+	</div>
+    	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/The-Worlds-Easyest-Game.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/The-Worlds-Easyest-Game.jpg" alt="The Worlds Easyest Game">
+		<h3>The Worlds Easyest Game</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://turbowarp.org/161864384/embed', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Fifa-FC-24.png" alt="Fifa FC 24">
+		<h3>Fifa FC 24</h3>
+	</div>
+    	<div class="game-card" onclick="openGame('https://1v1-lol-online.github.io/file/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/1v1-lol.png" alt="1v1.lol">
+		<h3>1v1.lol</h3>
+	</div>
+	    <div class="game-card" onclick="openGame('https://rbeesley.github.io/MicrosoftEdge-SURF', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-WaD3nyc1BhqedJEllqMdunvSHXIAFIapEw&s" alt="Microsoft Edge Surf">
+		<h3>Microsoft Edge Surf</h3>
+	</div>
+			<div class="game-card" onclick="openGame('https://turbowarp.org/1236622092/embed', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCyvlABdrfx6pG9ZVOGzkzT7EZFLG2Hk3z1Q&s" alt="Meme Soundboard">
+		<h3>Meme Soundboard!</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/BattleWheels/', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/battle-wheels.png" alt="Battle Wheels">
+		<h3>Battle Wheels</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/BoxingRandom/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/BoxingRandom.jpg" alt="Boxing Random">
+		<h3>Boxing Random</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/ThumbFighter/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/ThumbFighter.jpg" alt="Thumb Fighter">
+		<h3>Thumb Fighter</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://sciencemathedu.github.io/space', 'Google Docs')">
+		<img src="https://ubg98.github.io/assets/img/games/space-bar-clicker.png" alt="Spacebar Clicker">
+		<h3>Spacebar Clicker</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Roblox_Blade_Ball_Scratch_Ver.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Roblox_Blade_Ball_Scratch_Ver.png" alt="Roblox Blade Ball Scratch Ver">
+		<h3>Roblox Blade Ball Scratch Ver</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://turbowarp.org/392655529/embed', 'Google Docs')">
+		<img src="https://trampoline.turbowarp.org/thumbnails/333538714" alt="Just Shapes And Beats Scratch Ver">
+		<h3>Just Shapes And Beats Scratch Ver</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/The_Sun_for_the_Vampire.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/The_Sun_for_the_Vampire.jpg" alt="The Sun For The Vampire">
+		<h3>The Sun For The Vampire</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://physicsedu16.github.io/g69/class-636', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/swingo.png" alt="Swingo">
+		<h3>Swingo</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://math711.github.io/g177/class-304', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZlY9QFC_ApXhKKQQ3EOVUX1BBUDYDIc3cqg&s" alt="Burnout Extreme Drift 2">
+		<h3>Burnout Extreme Drift 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://math711.github.io/g22/class-363', 'Google Docs')">
+		<img src="https://bitlifeonline.github.io/blumgi-dragon/logo.png" alt="Blumgi Dragon">
+		<h3>Blumgi Dragon</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://htmlxm.github.io/h2/burnout-drift-seaport-max', 'Google Docs')">
+		<img src="https://htmlxm.github.io/thumb/burnout-drift-seaport-max.png" alt="Burnout Drift: Seaport Max">
+		<h3>Burnout Drift: Seaport Max</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://gamingshitposting.github.io/ext-bin-1/littlealchemy2.com/index.html', 'Google Docs')">
+		<img src="https://gamingshitposting.github.io/SalaMuseoGames/assets/media/games/little-alchemy-2/little_alchemy_2.webp" alt="Little Alchemy 2">
+		<h3>Little Alchemy 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://sbeyer.github.io/2048', 'Google Docs')">
+		<img src="https://gabrielecirulli.github.io/2048/meta/og_image.png" alt="2048">
+		<h3>2048</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://1kh0.github.io/projects/meme2048/index.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYCM4bdEweSP7W_tq86EvFuVTdAHhYXNarIiL4k7mBFC5XYMnsk0uCc2TpM6DYpWx3ttk&usqp=CAU" alt="Meme 2048">
+		<h3>Meme 2048</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://fridaynight-funkin.github.io/f/block-the-pig', 'Google Docs')">
+		<img src="https://fridaynight-funkin.github.io/imgs/block-the-pig.png" alt="Block The Pig">
+		<h3>Block The Pig</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://kevinedu111.github.io/g177/class-333', 'Google Docs')">
+		<img src="https://kevinedu111.github.io/img/class-333.png" alt="Basketball FRVR">
+		<h3>Basketball FRVR</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://tataedu23.github.io/g16/class-669', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-669.png" alt="Boxing Physics 2">
+		<h3>Boxing Physics 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Truck-Loader.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Truck-Loader.png" alt="Truck Loader">
+		<h3>Truck Loader</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Truck-Loader-5.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Truck-Loader-5.png" alt="Truck Loader 5">
+		<h3>Truck Loader 5</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://tataedu23.github.io/g22/class-351', 'Google Docs')">
+		<img src="https://tataedu23.github.io/g22/class-351/adaf9444d645f92e567cc721f411df36.png" alt="Zeepkist: Crash 2D">
+		<h3>Zeepkist: Crash 2D</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://1kh0.github.io/projects/draw-the-hill/index.html', 'Google Docs')">
+		<img src="https://1kh0.github.io/projects/draw-the-hill/icons/icon-512.png" alt="Draw The Hill">
+		<h3>Draw The Hill</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/SofloWheelieLife.html', 'Google Docs')">
+		<img src="https://play-lh.googleusercontent.com/yCR1xVXPOFr39G4khGi-GpL24R9IkHOEye11HIzdANtwdl6KMn-qvZsPIYA_lWtfn3RG=w526-h296-rw" alt="SofloWheelieLife">
+		<h3>SofloWheelieLife</h3>
+	</div>
+			<div class="game-card" onclick="openGame('https://htmlxm.github.io/h6/rooftop-snipers-2/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKRHpXPoU1Gf2zfgJ6AAfaz9b8REHibbnJiA&s" alt="Rooftop Snipers 2">
+		<h3>Rooftop Snipers 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://spew45.github.io/game-assets/stickman-dismount/', 'Google Docs')">
+		<img src="https://play-lh.googleusercontent.com/4Oso-_reZyMPCTOBgsepD7ZibAoyz7KcV4yNFimLGSgV-55bk3JZ5SDNUcHPJ--NyLo=w526-h296-rw" alt="Stickman Dismount">
+		<h3>Stickman Dismount</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://abinbins.github.io/a6/stacktris/', 'Google Docs')">
+		<img src="https://abinbins.github.io/thumb/stacktris.png" alt="Stacktris">
+		<h3>Stacktris</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://1kh0.github.io/projects/sand-game/index.html', 'Google Docs')">
+		<img src="https://repository-images.githubusercontent.com/261232894/f1b91880-0736-11eb-9e53-badff9529725" alt="Sand Game">
+		<h3>Sand Game</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Pandemic_2.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Pandemic_2.jpg" alt="Pandemic 2">
+		<h3>Pandemic 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://tataedu23.github.io/g5/class-474/', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-474.png" alt="Basketball Legends">
+		<h3>Basketball Legends</h3>
+	</div>
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/file/The_Maze.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/The_Maze.jpg" alt="The Maze">
+		<h3>The Maze</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://tataedu23.github.io/g22/class-358/', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-358.png" alt="Flip Bros">
+		<h3>Flip Bros</h3>
+	</div>
+	    <div class="game-card" onclick="openGame('https://stick-defenders-online.github.io/file/', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_wgonx0WCrR1ILzQvbwnoORrDa1nZJ3R-Zw&s" alt="Stick Defenders">
+		<h3>Stick Defenders</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Motherload.html', 'Google Docs')">
+		<img src="http://ubg42.github.io/file/Motherload.jpg" alt="Motherload">
+		<h3>Motherload</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Line_Rider_2.html', 'Google Docs')">
+		<img src="http://ubg42.github.io/file/Line_Rider_2.jpg" alt="Line Rider">
+		<h3>Line Rider</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Age_Of_War.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Age_Of_War.jpg" alt="Age Of War">
+		<h3>Age Of War</h3>
+	</div>		
+	    <div class="game-card" onclick="openGame('https://tataedu23.github.io/g177/class-334/', 'Google Docs')">
+		<img src="https://tataedu23.github.io/img/class-334.png" alt="Bacon May Die">
+		<h3>Bacon May Die</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Gold_Miner.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Gold_Miner.jpg" alt="Gold Miner">
+		<h3>Gold Miner</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/The_Impossible_Quiz_2.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/The_Impossible_Quiz_2.jpg" alt="The Impossible Quiz 2">
+		<h3>The Impossible Quiz 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Super_Smash_Flash.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Super_Smash_Flash.jpg" alt="Super Smash Flash">
+		<h3>Super Smash Flash</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Gold_Miner_Special_Edition.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Gold_Miner_Special_Edition.png" alt="Gold Miner: Special Edition">
+		<h3>Gold Miner: Special Edition</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Free-Rider.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Free_Rider.png" alt="Free Rider">
+		<h3>Free Rider</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/The_Impossible_Quizmas.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/The_Impossible_Quizmas.jpg" alt="The Impossible Quizmas">
+		<h3>The Impossible Quizmas</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Train_Mania.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Train_Mania.jpg" alt="Train Mania">
+		<h3>Train Mania</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/This_Is_The_Only_Level_Too.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/This_Is_The_Only_Level_Too.png" alt="This Is The Only Level Too">
+		<h3>This Is The Only Level Too</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/This_Is_The_Only_Level_3.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/This_Is_The_Only_Level_3.png" alt="This Is The Only Level 3">
+		<h3>This Is The Only Level 3</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://turbowarp.org/598491618/embed', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Project_Sekai.jpg" alt="Project Sekai - プロジェクトセカイ">
+		<h3>Project Sekai - プロジェクトセカイ</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://funny-shooter.github.io/file/', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Funny-Shooter-2.png" alt="Funny Shooter 2">
+		<h3>Funny Shooter 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/QWOP.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/qwop.jpeg" alt="QWOP">
+		<h3>QWOP</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Duck_Life_1.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Duck_Life.jpg" alt="Duck Life">
+		<h3>Duck Life</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Duck_Life_2.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Duck_Life_2.jpg" alt="Duck Life 2: World Champion">
+		<h3>Duck Life 2: World Champion</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Duck_Life_3.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Duck_Life_3.jpg" alt="Duck Life 3: Evolution">
+		<h3>Duck Life 3: Evolution</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Duck_Life_4.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Duck_Life_4.jpg" alt="Duck Life 4">
+		<h3>Duck Life 4</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://tylerpalko.github.io/gamehub/basketrandom/', 'Google Docs')">
+		<img src="https://avatars.githubusercontent.com/u/177211743?v=4" alt="Basket Random">
+		<h3>Basket Random</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://23azostore.github.io/s2/4th-and-goal-2022/', 'Google Docs')">
+		<img src="https://23azostore.github.io/img/4th-and-goal-2022.png" alt="Basket Random">
+		<h3>4th And Goal 2022</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/kartbros.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/kartbros.jpg" alt="Kart Bros">
+		<h3>Kart Bros</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/timeshooter3.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/timershooter3.jpg" alt="Timer Shooter 3 SWAT">
+		<h3>Timer Shooter 3 SWAT</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/spacewaves.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/spacewaves.jpg" alt="Space Waves">
+		<h3>Space Waves</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/obbyblox.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/obbyblox.jpg" alt="Obby Blox">
+		<h3>Obby Blox</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/timeshooter2.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/timeshooter2.jpg" alt="Timer Shooter 2">
+		<h3>Timer Shooter 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/retrobowlcollege.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/retrobowlcollege.jpg" alt="Retro Bowl College">
+		<h3>Retro Bowl College</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/recoil.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/recoil.jpg" alt="Recoil">
+		<h3>Recoil</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/drivenwild.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/drivenwild.jpg" alt="Driven Wild">
+		<h3>Driven Wild</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/dunkshot.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/dunkshot.jpg" alt="Dunk Shot">
+		<h3>Dunk Shot</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/escaperoad.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/escaperoad.jpg" alt="Escape Road">
+		<h3>Escape Road</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/growyourgarden.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/growyourgarden.jpg" alt="Grow Your Garden">
+		<h3>Grow Your Garden</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/ragollhit.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/ragdollhit.png" alt="Ragdoll Hit">
+		<h3>Ragdoll Hit</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/solarsmash.html', 'Google Docs')">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2q49mFPY9P9dnerm-KbmjsO_jumXrhCzsQw-ufOjTx6xVU-X0S1jiJvVjKrDYl6VCuQ&usqp=CAU" alt="Solar Smash">
+		<h3>Solar Smash</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/toca-boca/games/toca/life-unlimited/', 'Google Docs')">
+		<img src="https://ubg42.github.io/toca-boca/thumbnail.png" alt="Toca Life World">
+		<h3>Toca Life World</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/bullet-bros/games/bullet-bros/', 'Google Docs')">
+		<img src="https://ubg42.github.io/bullet-bros/bulletbros.jpg" alt="Bullet Bros">
+		<h3>Bullet Bros</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg423.github.io/file/vietdp-games/games/t52025/plonky/', 'Google Docs')">
+		<img src="https://ubg423.github.io/file/vietdp-games/games/t52025/plonky/icons/loading-logo.png" alt="Plonky">
+		<h3>Plonky</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Sprinter.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Sprinter.jpg" alt="Sprinter">
+		<h3>Sprinter</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/html5/crazymotorcycle.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/html5/crazymotorcycle.jpg" alt="Crazy Motorcycle">
+		<h3>Crazy Motorcycle</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg423.github.io/logos/2017/cricket17/cricket17.html', 'Google Docs')">
+		<img src="https://ubg423.github.io/logos/2017/cricket17/cricket17.jpg" alt="Google Cricket">
+		<h3>Google Cricket</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/logos/2019/july4th19/r6/july4th19.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/logos/2019/july4th19/r6/july4th19.png" alt="Google Baseball">
+		<h3>Google Baseball</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg424.github.io/logos/2018/gnomes/gnomes18.html', 'Google Docs')">
+		<img src="https://ubg424.github.io/logos/2018/gnomes/gnomes18.jpg" alt="Google Gnomes">
+		<h3>Google Gnomes</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.html', 'Google Docs')">
+		<img src="https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.png" alt="Google Solitaire">
+		<h3>Google Solitaire</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg424.github.io/game/1.3/', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Snake_Game.png" alt="Google Snake">
+		<h3>Google Snake</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/file/Mcdonalds.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/file/Mcdonalds.png" alt="McDonalds Game (Not My Game)">
+		<h3>McDonalds Game (Not My Game)</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/Gamezz/idle-lumber-inc/', 'Google Docs')">
+		<img src="https://ubg42.github.io/Gamezz/Idle-Lumber-Inc.jpg" alt="Idle Lumber Inc">
+		<h3>Idle Lumber Inc</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/LevelDevil2', 'Google Docs')">
+		<img src="https://ubg42.github.io/LevelDevil2/LevelDevil2.png" alt="Level Devil 2">
+		<h3>Level Devil 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/EscapeRoad2/', 'Google Docs')">
+		<img src="https://ubg42.github.io/EscapeRoad2/25050801/loading.png" alt="Escape Road 2">
+		<h3>Escape Road 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/EscapeRoadCity2/', 'Google Docs')">
+		<img src="https://ubg42.github.io/EscapeRoadCity2/25030706/loading.png" alt="Escape Road City 2">
+		<h3>Escape Road City 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/EscapeRoadWinter/', 'Google Docs')">
+		<img src="https://ubg42.github.io/EscapeRoadWinter/25011401/loading.png" alt="Escape Road Winter">
+		<h3>Escape Road Winter</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/JetpackJoyride/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/JetpackJoyride.jpg" alt="Jetpack Joyride">
+		<h3>Jetpack Joyride</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/Pacman/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Pacman.jpg" alt="Pacman">
+		<h3>Pacman</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/SuperFowlst/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/SuperFowlst.jpg" alt="Super Fowlst">
+		<h3>Super Fowlst</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/SuperFowlst2/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/SuperFowlst2.jpg" alt="Super Fowlst 2">
+		<h3>Super Fowlst 2</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/gam3z/dadish/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Dadish.jpg" alt="Dadish">
+		<h3>Dadish</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/gam3z/dune/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Dune.jpg" alt="Dune">
+		<h3>Dune</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/DontFindTheFox/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/DontFindTheFox.jpg" alt="Dont Find The Fox">
+		<h3>Dont Find The Fox</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/Sandtris/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Sandtris.jpg" alt="Sandtris">
+		<h3>Sandtris</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/Flappy2048/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Flappy2048.jpg" alt="Flappy 2048">
+		<h3>Flappy 2048</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/ColorMatch/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/ColorMatch.jpg" alt="Color Match">
+		<h3>Color Match</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/StretchGuy/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/StretchGuy.jpg" alt="Stretch Guy">
+		<h3>Stretch Guy</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/PlanetCompare/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/PlanetCompare.jpg" alt="Planet Compare">
+		<h3>Planet Compare</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/Simon/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Simon.jpg" alt="Simon">
+		<h3>Simon</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/Penga/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Penga.jpg" alt="Penga">
+		<h3>Penga</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/DogPooGolf/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/DogPooGolf.jpg" alt="Dog Poo Golf">
+		<h3>Dog Poo Golf</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/FruitMerge/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/FruitMerge.jpg" alt="Fruit Merge">
+		<h3>Fruit Merge</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/JellyMario/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/JellyMario.jpg" alt="Jelly Mario">
+		<h3>Jelly Mario</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas-freezeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_freezeria.jpg" alt="Papa's Freezeria">
+		<h3>Papa's Freezeria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_bakeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_bakeria.jpg" alt="Papa's Bakeria">
+		<h3>Papa's Bakeria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_burgeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_burgeria.jpg" alt="Papa's Burgeria">
+		<h3>Papa's Burgeria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_cheeseria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_cheeseria.jpg" alt="Papa's Cheeseria">
+		<h3>Papa's Cheeseria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_cupcakeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_cupcakeria.jpg" alt="Papa's Cupcakeria">
+		<h3>Papa's Cupcakeria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_donuteria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_donuteria.jpg" alt="Papa's Donuteria">
+		<h3>Papa's Donuteria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_hotdoggeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_hotdoggeria.jpg" alt="Papa's Hotdoggeria">
+		<h3>Papa's Hotdoggeria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_pancakeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_pancakeria.jpg" alt="Papa's Pancakeria">
+		<h3>Papa's Pancakeria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_pastaria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_pastaria.jpg" alt="Papa's Pastaria">
+		<h3>Papa's Pastaria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_pizzeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_pizzeria.jpg" alt="Papa's Pizzeria">
+		<h3>Papa's Pizzeria</h3>
+	</div>
+			<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_scooperia.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_scooperia.jpg" alt="Papa's Scooperia">
+		<h3>Papa's Scooperia</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_sushiria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_sushiria.jpg" alt="Papa's Sushiria">
+		<h3>Papa's Sushiria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_taco_mia.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_taco_mia.jpg" alt="Papa's Taco Mia">
+		<h3>Papa's Taco Mia</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/game/papas_wingeria.html', 'Google Docs')">
+		<img src="https://ubg42.github.io/game/papas_wingeria.jpg" alt="Papa's Wingeria">
+		<h3>Papa's Wingeria</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/SurvivalRace/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Survival_Race.jpg" alt="Survival Race">
+		<h3>Survival Race</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/MadalinStuntCarsMultiplayerNew/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/MadalinStuntCarsMultiplayer.jpg" alt="Madalin Stunt Cars Multiplayer">
+		<h3>Madalin Stunt Cars Multiplayer</h3>
+	</div>	
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/MarioBros/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/SuperMarioBros.jpg" alt="Mario Bros">
+		<h3>Mario Bros</h3>
+	</div>
+</div>
+
+<footer>
+  <p class="footer-text">Contact: ubg423@gmail.com 
+  </p>
+    <p class="footer-text">© 2026 All rights reserved.
+  </p>
+<p class="footer-text">
+  Play my Favourite Games: 
+  <a href="https://ubg42.github.io/creator" target="_blank" style="color: white; text-decoration: none;">
+	Creator Games
+  </a>
+</p>
+</footer>
 <script>
 function openGame(url, title) {
   var newTab = window.open('about:blank', '_blank');
@@ -156,6 +1209,641 @@ function openGame(url, title) {
   newTab.document.close();
 }
 </script>
+<script>
+const searchBar = document.getElementById("searchBar");
+const gameCards = document.querySelectorAll(".game-card");
+const body = document.body;
 
+const normalize = (str) => str.trim().toLowerCase();
+
+const triggers = {
+    "cj": [
+      "the impossible quiz",
+      "subway surfers",
+      "stack",
+      "run 3",
+      "watermelon drop",
+	  "project sekai - プロジェクトセカイ"
+    ],
+    "jm": [
+      "cluster rush",
+      "level devil - not a troll game",
+      "moto road rash 3d",
+      "slope",
+      "traffic run 3d",
+      "stack",
+      "ragdoll archers",
+      "shell jump",
+      "drift boss",
+      "the impossible quiz",
+      "house of harzards",
+      "stickman fight ragdoll",
+      "stick merge",
+      "deal or no deal",
+      "dreadhead parkour",
+      "cookie clicker",
+	  "slope with cheats",
+	  "stick fighter",
+	  "gobble",
+	  "timer shooter 3 swat",
+	  "grow your garden"	
+    ],
+    "jk": [
+      "cluster rush",
+      "level devil - not a troll game",
+      "moto road rash 3d",
+      "slope",
+      "traffic run 3d",
+      "stack",
+      "ragdoll archers",
+      "shell jump",
+      "drift boss",
+      "the impossible quiz",
+      "house of harzards",
+      "stickman fight ragdoll",
+      "stick merge",
+      "deal or no deal",
+      "dreadhead parkour",
+      "cookie clicker",
+	  "slope with cheats",
+	  "stick fighter",
+	  "gobble",
+	  "timer shooter 3 swat",
+	  "grow your garden"	
+    ],
+    "caylen and jaxton": [
+      "eggy car",
+      "retro bowl",
+      "idle mining empire"
+    ],
+	  "jaxton and caylen": [
+      "eggy car",
+      "retro bowl",
+      "idle mining empire"
+    ],
+    "hayden": [
+      "geometry dash",
+      "red ball 4"
+    ],
+    "jamessaysopensesame": [
+      "cookie clicker"
+    ],
+	 "campbell": [
+	   "subway surfers",
+		 "stick merge",
+	     "learn to fly",
+	     "learn to fly 2",
+	     "learn to fly 3",
+	     "learn to fly idle",
+		 "idle mining empire",
+		 "boost roulette"
+	],
+		 "corey": [
+	   "subway surfers",
+		 "stick merge",
+	     "learn to fly",
+	     "learn to fly 2",
+	     "learn to fly 3",
+	     "learn to fly idle",
+		 "idle mining empire",
+		 "boost roulette",
+		 "basket random"
+	],
+	   "the egg needs a seatbelt": [
+	   "eggy car"
+	],
+		"the egg needs a seatbelt!": [
+	   "eggy car"
+	],
+		 "creator": [
+	     "slope",
+		 "tomb of the mask",
+	     "moto x3m",
+	     "moto x3m spooky land",
+	     "moto x3m winter",
+	     "eggy car",
+		 "appel",
+		 "cluster rush",
+		 "dreadhead parkour",
+		 "run 3",
+		 "red ball 4",
+		 "drive mad",
+		 "stick fighter",
+		 "flip bros",
+		 "bacon may die",
+		 "gold miner",
+		 "gold miner: special edition",
+		 "soflowheelielife",
+		 "escape road 2",  
+		 "escape road", 
+		 "dune",
+		 "survival race"	 
+	],
+    	"bails": [
+	     "slope",
+		 "fluid simulation",
+	     "moto x3m",
+	     "moto x3m spooky land",
+	     "moto x3m winter",
+         "moto x3m pool party",
+         "moto x3m 2",
+         "moto x3m 3",
+	     "cars thief",
+		 "red ball 4",
+		 "highway traffic 3d",
+		 "dreadhead parkour",
+		 "drift hunters",
+         "worlds hardest game",
+		 "worlds hardest game 2",
+		 "worlds hardest game 3",
+		 "worlds hardest game 4",
+         "drive mad",
+         "top speed racing 3d",
+         "deal or no deal",
+         "slope with cheats",
+		 "slow roads",
+		 "escape road",
+		 "escape road 2",							
+	],
+	    "callum": [
+	     "ovo",
+		 "subway surfers",
+	     "gunspin"
+	],
+		"caleb": [
+	     "jacksmith"
+	],
+		"will": [
+	     "slope",
+		 "plants vs zombies",
+		 "eggy car"
+	],
+		 "ethan": [
+	     "water polo ragdoll",
+		 "4th and goal 2022"
+
+	],
+			 "millie": [
+	     "watermelon drop"
+	],
+			 "rocco": [
+         "papas pizzeria",
+         "papas bakeria",
+		 "papas pastaria",
+		 "plants vs zombies",
+		 "fifa fc 24",
+		 "clash royale"
+	],
+		 "asher": [
+         "gunspin",
+         "clash royale"
+	],
+		 "dustin": [
+         "super mx - the champion"
+	],
+		 "detrey": [
+         "eggy car",
+        "drive mad",
+        "traffic run 3d",
+        "rocket soccer derby",
+        "drift hunters",
+        "crazy cars",
+        "top speed racing 3d",
+        "monster tracks",
+        "parking fury",
+        "demolition derby crash racing",
+        "parking fury 3d beach city",
+        "ultimate car driving",
+        "blumgi rocket",
+        "polytrack",
+        "highway traffic 3d",
+        "survival karts",
+        "battle wheels",
+        "burnout extreme drift 2",
+        "burnout drift: seaport max"
+	],
+				 "chloe": [
+	     "boost roulette"
+	],
+		"tayton": [
+	     "bloons tower defense"
+	],
+			"mitchell": [
+         "retro bowl",
+         "crossy road",
+	],
+			"mitch": [
+         "retro bowl",
+         "crossy road",
+	],
+			"beth": [
+        "stickman bike",
+        "moto road rash 3d",
+        "slope",
+        "tunnel rush",
+        "8 ball pool",
+        "flappy bird",
+        "snow rider 3d",
+        "subway surfers",
+        "paper.io 2",
+        "stickman hook",
+        "ovo",
+        "run 3",
+        "tomb of the mask",
+		"stack"
+	],
+			    "liam": [
+        "geometry dash",
+		"geometry dash lite"
+	],
+				"Liam": [
+        "geometry dash",
+		"geometry dash lite"
+	],
+  };
+
+const backgrounds = {
+  default: 'url("galaxy.jpg")',
+  bails: 'url("yellow.jpg")',
+  jm: 'url("e.png")',
+  jk: 'url("e.png")',
+  creator: 'url("red.png")',
+  will: 'url("ditto.png")',
+  cj: 'url("cj.png")',
+ millie: 'url(Bakugo.jpg)',
+ rocco: 'url(mega-night.jpg)',
+ dawson: 'url(Bing-Bong.jpg)',
+ asher: 'url(Fire-Spirit.png)',
+ beth: 'url(jellyfish.png)',
+ liam: 'url(sigmamale.png)',
+ Liam: 'url(sigmamale.png)',
+};
+
+// Set default background
+body.style.backgroundImage = backgrounds.default;
+
+searchBar.addEventListener("input", function () {
+  const query = normalize(searchBar.value);
+
+
+  // Filter game cards
+  gameCards.forEach((card) => {
+    const title = normalize(card.querySelector("h3").textContent);
+    if (triggers[query]) {
+      card.style.display = triggers[query].includes(title) ? "" : "none";
+    } else {
+      card.style.display = title.includes(query) ? "" : "none";
+    }
+  });// SECRET GAMES
+if (query === "secret") {
+
+  const grid = document.getElementById("gameGrid");
+
+  const secrets = [
+    {
+      id: "secret1",
+      name: "Rabbit Samurai",
+      img: "https://ubg42.github.io/img/RabbitSamurai.jpg",
+      url: "https://ubg42.github.io/RabbitSamurai/"
+    },
+    {
+      id: "secret2",
+      name: "Rabbit Samurai 2",
+      img: "https://ubg42.github.io/img/RabbitSamurai2.jpg",
+      url: "https://ubg42.github.io/RabbitSamurai2/"
+    }
+  ];
+
+  secrets.forEach(game => {
+    if (!document.getElementById(game.id)) {
+
+      const card = document.createElement("div");
+      card.className = "game-card";
+      card.id = game.id;
+
+      card.innerHTML = `
+        <img src="${game.img}" alt="${game.name}">
+        <h3>${game.name}</h3>
+      `;
+
+      card.onclick = function () {
+        openGame(game.url, "Google Docs");
+      };
+
+      grid.appendChild(card); // keeps the order
+    }
+  });
+
+} else {
+
+  ["secret1","secret2","secret3"].forEach(id => {
+    const old = document.getElementById(id);
+    if (old) old.remove();
+  });
+
+}
+
+  // Change background based on trigger
+  body.style.backgroundImage = backgrounds[query] || backgrounds.default;
+
+  // Show/hide footer
+  const footer = document.querySelector("footer");
+  if (query.length > 0) {
+    footer.style.display = "none";
+  } else {
+    footer.style.display = "block";
+  }
+});
+</script>
+<script>
+    const links = [
+      "https://fridaynight-funkin.github.io/f6/stickman-bike/",
+      "https://htmlxm.github.io/h7/moto-road-rash-3d/",
+      "https://ubg42.github.io/file/The_Impossible_Quiz.html",
+      "https://slopenexus.github.io/games/v1.2.5/index.html",
+      "https://ubg42.github.io/html5/tunnelrush.html",
+      "https://ubg42.github.io/8BallPool/",
+      "https://flappybirdgame.github.io/file/",
+      "https://snow-rider3d.github.io/file/",
+      "https://lnahtml.github.io/a8/subway-surfers-newyork/",
+      "https://ubg42.github.io/Paperio2//",
+      "https://lnahtml.github.io/a/stickman-hook/",
+      "https://ovo-game.github.io/o/ovo/",
+      "https://lekug.github.io/tn6pS9dCf37xAhkJv/",
+      "https://tomb-ofthe-mask.github.io/file/",
+      "https://motox3m.gitlab.io/x3m-1.20.1p/",
+      "https://ovo-game.github.io/o/among-us/",
+      "https://ubg42.github.io/file/Eaglercraft-112.htm",
+      "https://elastic-man-online.github.io/file/",
+      "https://gswitch3.github.io/g/eggy-car",
+      "https://xoriushourz.github.io/CookieClicker/",
+      "https://tataedu23.github.io/g72/class-638/",
+      "https://ubg42.github.io/RagdollArchers/",
+      "https://bloons-towerdefense.github.io/file/",
+      "https://getting-overit.github.io/file/",
+      "https://ubg89.github.io/Bloxorz/",
+      "https://ubg42.github.io/file/",
+      "https://snail-bob.github.io/games/snail-bob/index.html",
+      "https://lnahtml.github.io/a77/drive-mad/",
+      "https://23azostore.github.io/s8/temple-run-2/",
+      "https://reunbozdo.github.io/",
+      "https://tataedu23.github.io/g22/class-491/",
+      "https://trafficjam3d.github.io/traffic-jam-3d/",
+      "https://unblocked-games-onlines.github.io/u6/penalty-shooters-2/",
+      "https://gswitch3.github.io/g/tiny-fishing/",
+      "https://23azostore.github.io/s4/gold-digger-frvr/",
+      "https://there-is-no-game.github.io/a/there-is-no-game/",
+      "https://ubg42.github.io/file/Flash-Sonic.html",
+      "https://htmlxm.github.io/h/raft-wars/",
+      "https://23azostore.github.io/s2/stack/",
+      "https://abinbins.github.io/a7/master-chess/",
+      "https://narrow-one.github.io/n6/rocket-soccer-derby/",
+      "https://ubg42.github.io/file/Bob_The_Robber.html",
+      "https://bobtherobberunblocked.github.io/2/",
+      "https://23azostore.github.io/s7/bob-the-robber-4/",
+      "https://ubg42.github.io/file/Appel.html",
+      "https://ubg42.github.io/file/Geometry-Dash.html",
+      "https://ubg42.github.io/file/Geometry-Dash-Meltdown.html",
+      "https://ubg42.github.io/file/Geometry_Dash_Subzero.html",
+      "https://ubg42.github.io/file/Geometry_Dash_World_Toxic_Factory.html",
+	  "https://ubg42.github.io/html5/gdlite.html",
+      "https://soccerlegends.github.io/soccer-legends/",
+      "https://ubg42.github.io/html5/basketballstars.html",
+      "https://ovo-game.github.io/o/drift-hunters/",
+      "https://smash-kartsonline.github.io/g16/class-419/",
+      "https://howdoyouspellcomputers.github.io/paperminecraftoffical/",
+      "https://d294gk6z3w9l13.cloudfront.net/games/cluster-rush/index.html",
+      "https://google-snakegame.github.io/g22/class-356/",
+      "https://driftboss-online.github.io/file/",
+      "https://ubg77.github.io/pixel-shooter/",
+      "https://smashkartsonlinegames.github.io/v/moto-x3m-pool-party/",
+      "https://htmlxm.github.io/h/moto-x3m-spooky-land/",
+      "https://ubg42.github.io/file/Scratchball-3D.html",
+      "https://ubg42.github.io/file/Robux-Clicker.html",
+      "https://ubg42.github.io/file/Pen-Football-Mod.html",
+      "https://htmlxm.github.io/h/moto-x3m-winter/",
+      "https://ubg42.github.io/file/Battle-Cats.html",
+      "https://htmlxm.github.io/h4/crazy-cars/#topvaz",
+      "https://fridaynightfunkinweek7.github.io/",
+      "https://crossy-road.gitlab.io/file",
+      "https://narrow-one.github.io/n/top-speed-racing-3d/",
+      "https://monjeydaguineapig.github.io/WheelieBikeUnblocked/",
+      "https://motox3munblocked.github.io/2/",
+      "https://tataedu23.github.io/g72/class-414/",
+      "https://narrow-one.github.io/n88/angry-birds/",
+      "https://webglmath.github.io/stickmerge/",
+      "https://abinbins.github.io/a2/brain-test-tricky-puzzles/",
+      "https://23azostore.github.io/s/house-of-hazards/",
+      "https://ubg77.github.io/drift-dudes/",
+      "https://bosorioo.github.io/wordle-unlimited/",
+      "https://play.unity.com/api/v1/games/game/2d5b38e5-9fc7-4402-9745-ec84dfd3b1a2/build/latest/frame",
+      "https://mountain658.github.io/g/fruitninja/fruitninja.html",
+      "https://antarttycoon.github.io/game/index.html",
+      "https://amhooman.github.io/website/games/retrobowl/game.html",
+      "https://ubg42.github.io/file/deal_or_no_deal.html",
+      "https://htmlxm.github.io/h/parking-fury/",
+      "https://htmlxm.github.io/h4/demolition-derby-crash-racing/",
+      "https://tataedu23.github.io/g97/class-455/",
+      "https://tataedu23.github.io/g16/class-719/",
+      "https://tataedu23.github.io/g177/class-336/",
+      "https://tataedu23.github.io/g16/class-599/",
+      "https://tataedu23.github.io/g97/class-787/",
+      "https://tataedu23.github.io/g177/class-281/",
+      "https://tataedu23.github.io/g97/class-412/",
+      "https://tataedu23.github.io/g69/class-653/",
+      "https://tataedu23.github.io/g3/class-724/",
+      "https://tataedu23.github.io/g/class-808/",
+      "https://ubg42.github.io/FlipBottle/",
+      "https://tbg95.github.io/motox3m-3/game.html",
+      "https://tataedu23.github.io/g5/class-569/",
+      "https://23azostore.github.io/s2/big-shot-boxing/",
+      "https://gswitch3.github.io/g8/monkey-mart/",
+      "https://gswitch3.github.io/g5/idle-mining-empire/",
+      "https://htmlxm.github.io/h7/dinosaur-game/",
+      "https://ubg424.github.io/game/1.3/",
+      "https://ubg42.github.io/file/worldshardestgame.html",
+      "https://ubg42.github.io/file/worldshardestgame2.html",
+      "https://ubg42.github.io/file/worldshardestgame3.html",
+      "https://ubg42.github.io/file/worldshardestgame4.html",
+      "https://tataedu23.github.io/g16/class-413/",
+      "https://ubg42.github.io/html5/gunspin.html",
+      "https://gswitch3.github.io/g4/chicken-merge/",
+      "https://abinbins.github.io/a6/raft-wars-2/",
+      "https://sz-games.github.io/Games4/stick-duel-battle/",
+      "https://h5.supergogame.com/wj/index.html?fromapp=skipbo&jump_type=local_app",
+      "https://hva2021.github.io/cannon-basketball-4/index.html",
+      "https://hva2021.github.io/among-dash/index.html",
+      "https://hva2021.github.io/DogeMiner/index.html",
+      "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+      "https://narrow-one.github.io/n88/jacksmith/jacksmith.html",
+      "https://sz-games.github.io/Games11/polytrack/index.html",
+      "https://ubg42.github.io/file/PVZ.html",
+      "https://ubg42.github.io/file/learn-to-fly.html",
+      "https://ubg42.github.io/file/learn_to_fly_2.html",
+      "https://ubg42.github.io/file/Learn_To_Fly_3.html",
+      "https://ubg42.github.io/file/Learn_To_Fly_idle.html",
+      "https://ubg42.github.io/file/Portal_flash_version.html",
+      "https://ubg42.github.io/file/escapingtheprisongame.html",
+      "https://ubg42.github.io/file/breaking_the_bank.html",
+	  "https://ubg42.github.io/file/stealing_the_diamond.html",
+      "https://tataedu23.github.io/g16/class-655/",
+      "https://play.unity.com/api/v1/games/game/5246a951-75b0-40e4-ab5a-ca531614f76b/build/latest/frame",
+      "https://tataedu23.github.io/g72/class-625/",
+      "https://ubg42.github.io/file/jellydad_hero.html",
+      "https://unblocked-games-onlines.github.io/u3/tag/",
+      "https://dnrweqffuwjtx.cloudfront.net/games/2024/code/6/get-on-top/index.html",
+      "https://tataedu23.github.io/g68/class-1128",
+      "https://tataedu23.github.io/g50/class-6",
+      "https://tataedu23.github.io/g97/class-482",
+      "https://tataedu23.github.io/g9/class-420",
+      "https://jan25.github.io/f1-lights",
+      "https://ubg42.github.io/file/The-Worlds-Easyest-Game.html",
+      "https://turbowarp.org/161864384/embed",
+      "https://1v1-lol-online.github.io/file/",
+      "https://rbeesley.github.io/MicrosoftEdge-SURF",
+      "https://turbowarp.org/1236622092/embed",
+      "https://ubg42.github.io/BattleWheels/",
+      "https://ubg42.github.io/BoxingRandom/",
+      "https://ubg42.github.io/ThumbFighter/",
+      "https://sciencemathedu.github.io/space",
+      "https://ubg42.github.io/file/Roblox_Blade_Ball_Scratch_Ver.html",
+      "https://turbowarp.org/392655529/embed",
+      "https://ubg42.github.io/file/The_Sun_for_the_Vampire.html",
+      "https://physicsedu16.github.io/g69/class-636",
+      "https://math711.github.io/g177/class-304",
+      "https://math711.github.io/g22/class-363",
+      "https://htmlxm.github.io/h2/burnout-drift-seaport-max",
+      "https://gamingshitposting.github.io/ext-bin-1/littlealchemy2.com/index.html",
+	  "https://sbeyer.github.io/2048",
+	  "https://1kh0.github.io/projects/meme2048/index.html",
+	  "https://fridaynight-funkin.github.io/f/block-the-pig",
+	  "https://kevinedu111.github.io/g177/class-333",
+	  "https://tataedu23.github.io/g16/class-669",
+	  "https://ubg42.github.io/file/Truck-Loader.html",
+	  "https://ubg42.github.io/file/Truck-Loader-5.html",
+	  "https://tataedu23.github.io/g22/class-351",
+	  "https://1kh0.github.io/projects/draw-the-hill/index.html",
+	  "https://ubg42.github.io/file/Soflo_Wheelie_Life.html",
+	  "https://htmlxm.github.io/h6/rooftop-snipers-2/",
+	  "https://spew45.github.io/game-assets/stickman-dismount/",
+	  "https://abinbins.github.io/a6/stacktris/",
+	  "https://1kh0.github.io/projects/sand-game/index.html",
+	  "https://ubg42.github.io/file/Pandemic_2.html",
+	  "https://tataedu23.github.io/g5/class-474/",
+	  "https://ubg42.github.io/file/The_Maze.html",
+	  "https://tataedu23.github.io/g22/class-358/",
+	  "https://stick-defenders-online.github.io/file/",
+	  "https://ubg42.github.io/file/Motherload.html",
+	  "https://ubg42.github.io/file/Line_Rider_2.html",
+	  "https://ubg42.github.io/file/Age_Of_War.html",
+	  "https://tataedu23.github.io/g177/class-334/",
+	  "https://ubg42.github.io/file/Gold_Miner.html",
+	  "https://ubg42.github.io/file/The_Impossible_Quiz_2.html",
+	  "https://ubg42.github.io/file/Super_Smash_Flash.html",
+	  "https://ubg42.github.io/file/Gold_Miner_Special_Edition.html",
+	  "https://ubg42.github.io/file/Free-Rider.html",
+	  "https://ubg42.github.io/file/The_Impossible_Quizmas.html",
+	  "https://ubg42.github.io/file/Train_Mania.html",
+	  "https://ubg42.github.io/file/The_Impossible_Quiz_Hacked.html",
+	  "https://ubg42.github.io/file/This_Is_The_Only_Level_Too.html",
+	  "https://ubg42.github.io/file/This_Is_The_Only_Level_3.html",
+	  "https://turbowarp.org/598491618/embed",
+	  "https://funny-shooter.github.io/file/",
+	  "https://ubg42.github.io/file/QWOP.html",
+	  "https://ubg42.github.io/file/Duck_Life_1.html",
+	  "https://ubg42.github.io/file/Duck_Life_2.html",
+	  "https://ubg42.github.io/file/Duck_Life_3.html",
+	  "https://ubg42.github.io/file/Duck_Life_4.html",
+	  "https://tylerpalko.github.io/gamehub/basketrandom/",
+	  "https://23azostore.github.io/s2/4th-and-goal-2022/",
+	  "https://ubg42.github.io/html5/kartbros.html",
+	  "https://ubg42.github.io/html5/timeshooter3.html",
+	  "https://ubg42.github.io/html5/spacewaves.html",
+	  "https://ubg42.github.io/html5/obbyblox.html",
+	  "https://ubg42.github.io/html5/timeshooter2.html",
+	  "https://ubg42.github.io/html5/retrobowlcollege.html",
+	  "https://ubg42.github.io/html5/recoil.html",
+	  "https://ubg42.github.io/html5/drivenwild.html",
+	  "https://ubg42.github.io/html5/dunkshot.html",
+	  "https://ubg42.github.io/html5/escaperoad.html",
+	  "https://ubg42.github.io/html5/growyourgarden.html",
+	  "https://ubg42.github.io/html5/ragollhit.html",
+	  "https://ubg42.github.io/html5/solarsmash.html",
+	  "https://ubg42.github.io/toca-boca/games/toca/life-unlimited/",
+	  "https://ubg42.github.io/bullet-bros/games/bullet-bros/",
+	  "https://ubg423.github.io/file/vietdp-games/games/t52025/plonky/",
+	  "https://ubg42.github.io/file/Sprinter.html",
+	  "https://ubg42.github.io/html5/crazymotorcycle.html",
+	  "https://ubg423.github.io/logos/2017/cricket17/cricket17.html",
+	  "https://ubg42.github.io/logos/2019/july4th19/r6/july4th19.html",
+	  "https://ubg424.github.io/logos/2018/gnomes/gnomes18.html",
+	  "https://solitaire-fan.github.io/logos/fnbx/solitaire/standalone.4.html",
+	  "https://ubg424.github.io/game/1.3/",
+	  "https://ubg42.github.io/file/Mcdonalds.html",
+	  "https://ubg42.github.io/Gamezz/idle-lumber-inc/",
+	  "https://ubg42.github.io/LevelDevil2",
+	  "https://ubg42.github.io/EscapeRoad2/",
+	  "https://ubg42.github.io/Minesweeper/", 	
+	  "https://ubg42.github.io/EscapeRoadCity2/",
+	  "https://ubg42.github.io/EscapeRoadWinter/",
+	  "https://ubg42.github.io/JetpackJoyride/",
+	  "https://ubg42.github.io/Pacman/",
+	  "https://ubg42.github.io/SuperFowlst/",
+	  "https://ubg42.github.io/SuperFowlst2/",
+	  "https://ubg42.github.io/gam3z/dadish/",
+	  "https://ubg42.github.io/gam3z/dune/",
+	  "https://ubg42.github.io/DontFindTheFox/",
+	  "https://ubg42.github.io/Sandtris/",
+	  "https://ubg42.github.io/Flappy2048/",
+	  "https://ubg42.github.io/ColorMatch/",
+	  "https://ubg42.github.io/StretchGuy/",
+	  "https://ubg42.github.io/PlanetCompare/",
+	  "https://ubg42.github.io/Simon/",
+	  "https://ubg42.github.io/Penga/",
+	  "https://ubg42.github.io/DogPooGolf/",
+	  "https://ubg42.github.io/FruitMerge/",
+	  "https://ubg42.github.io/JellyMario/",
+	  "https://ubg42.github.io/game/papas-freezeria.html",
+	  "https://ubg42.github.io/game/papas_bakeria.html",
+	  "https://ubg42.github.io/game/papas_burgeria.html",
+	  "https://ubg42.github.io/game/papas_cheeseria.html",
+	  "https://ubg42.github.io/game/papas_cupcakeria.html",
+	  "https://ubg42.github.io/game/papas_donuteria.html",
+	  "https://ubg42.github.io/game/papas_hotdoggeria.html",
+	  "https://ubg42.github.io/game/papas_pancakeria.html",
+	  "https://ubg42.github.io/game/papas_pastaria.html",
+	  "https://ubg42.github.io/game/papas_pizzeria.html",
+	  "https://ubg42.github.io/game/papas_scooperia.html",
+	  "https://ubg42.github.io/game/papas_sushiria.html",
+	  "https://ubg42.github.io/game/papas_taco_mia.html",
+	  "https://ubg42.github.io/game/papas_wingeria.html",
+	  "https://ubg42.github.io/SurvivalRace/",
+	  "https://ubg42.github.io/MadalinStuntCarsMultiplayerNew/",
+	  "https://ubg42.github.io/hd_fnaf/1/",
+	  "https://ubg42.github.io/hd_fnaf/2/",
+	  "https://ubg42.github.io/hd_fnaf/3/",
+	  "https://ubg42.github.io/hd_fnaf/4/",
+	  "https://ubg42.github.io/hd_fnaf/w/",
+	  "https://ubg42.github.io/hd_fnaf/sl/",
+	  "https://ubg42.github.io/hd_fnaf/ps/",
+	  "https://ubg42.github.io/hd_fnaf/ucn/",
+	  "https://ubg42.github.io/MarioBros/",
+	  
+
+    ];
+
+    function openRandom() {
+      const randomLink = links[Math.floor(Math.random() * links.length)];
+      const newTab = window.open("about:blank", "_blank");
+      newTab.document.write(`
+        <html>
+          <head><title>Google Docs</title></head>
+          <body style="margin:0;overflow:hidden;">
+            <iframe src="${randomLink}" frameborder="0" style="width:100vw;height:100vh;border:none;"></iframe>
+          </body>
+        </html>
+      `);
+    }
+  </script>
 </body>
 </html>   
