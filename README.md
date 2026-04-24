@@ -551,7 +551,25 @@ https://ubg42.github.io/hd_fnaf/ucn/
 https://ubg42.github.io/MarioBros/
 
 https://ubg42.github.io/2020Game/
-	  
+
+https://ubg42.github.io/game/cannon-basketball/
+
+https://ubg42.github.io/game/cannon-basketball-2/
+
+https://ubg42.github.io/game/cannon-basketball-3/
+
+https://ubg42.github.io/game/cannon-basketball-4/
+
+https://ubg42.github.io/TheSunForTheVampire/
+
+https://ubg42.github.io/TheSunForTheVampire2/
+
+https://ubg42.github.io/TheSunForTheVampire3/
+
+https://ubg42.github.io/AwesomeTanks/
+
+https://ubg42.github.io/AwesomeTanks2/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
