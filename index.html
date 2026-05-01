@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>reCAPTCHA demo</title>
+    <title>reCAPTCHA redirect</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <style>
@@ -13,39 +13,20 @@
         align-items: center;
         height: 100vh;
       }
-
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-      }
-
-      #submit {
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        display: none; /* hidden until captcha done */
-      }
     </style>
 
     <script>
       function captchaDone() {
-        // Show button when captcha is completed
-        document.getElementById("submit").style.display = "block";
+        window.location.href = "/heheh.html";
       }
     </script>
   </head>
 
   <body>
-    <form action="?" method="POST" class="container">
-      <div 
-        class="g-recaptcha" 
-        data-sitekey="6LdhitMsAAAAAK-6gHaIXxkYlogN2OJO3eI6gHXA"
-        data-callback="captchaDone">
-      </div>
-
-      <input type="submit" id="submit" value="Submit">
-    </form>
+    <div 
+      class="g-recaptcha" 
+      data-sitekey="6LdhitMsAAAAAK-6gHaIXxkYlogN2OJO3eI6gHXAY"
+      data-callback="captchaDone">
+    </div>
   </body>
 </html>
