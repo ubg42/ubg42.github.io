@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>reCAPTCHA demo</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
+
+      #submit {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        display: none; /* hidden until captcha done */
+      }
+    </style>
+
+    <script>
+      function captchaDone() {
+        // Show button when captcha is completed
+        document.getElementById("submit").style.display = "block";
+      }
+    </script>
+  </head>
+
+  <body>
+    <form action="?" method="POST" class="container">
+      <div 
+        class="g-recaptcha" 
+        data-sitekey="6LdhitMsAAAAAK-6gHaIXxkYlogN2OJO3eI6gHXA"
+        data-callback="captchaDone">
+      </div>
+
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>
