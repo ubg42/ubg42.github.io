@@ -218,8 +218,6 @@ https://sz-games.github.io/Games4/stick-duel-battle/
 
 https://h5.supergogame.com/wj/index.html?fromapp=skipbo&jump_type=local_app
 
-https://hva2021.github.io/cannon-basketball-4/index.html
-
 https://hva2021.github.io/among-dash/index.html
 
 https://hva2021.github.io/DogeMiner/index.html
