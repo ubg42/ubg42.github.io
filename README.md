@@ -580,6 +580,10 @@ https://ubg42.github.io/BabaIsYou/
 
 https://ubg42.github.io/Retro/
 
+https://ubg42.github.io/file/Duck_Life_5.html
+
+https://ubg42.github.io/file/Bartender_The_Right_Mix.html
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
