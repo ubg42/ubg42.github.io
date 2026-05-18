@@ -123,7 +123,7 @@
     font-weight:bold;
     font-family:Arial, sans-serif;
 	    margin: 0;
-
+       cursor: pointer;
     background: linear-gradient(
         90deg,
         red,
@@ -160,6 +160,7 @@
       top: 25px;
       left: 1164px;
       text-align: right;
+	  cursor: pointer;
 
     background: linear-gradient(
         90deg,
@@ -187,6 +188,14 @@
     100%{
         background-position:400%;
     }
+}
+.particle {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999999;
 }
   </style>
   
@@ -1697,6 +1706,7 @@ if (query === "secret") {
   }
 });
 </script>
+
 <script>
     const links = [
       "https://fridaynight-funkin.github.io/f6/stickman-bike/",
@@ -2005,5 +2015,80 @@ if (query === "secret") {
       `);
     }
   </script>
+  <script>
+document.querySelectorAll(".rainbow-text, .rainbow-text-creator").forEach(text => {
+
+    text.addEventListener("click", function () {
+
+        const rect = this.getBoundingClientRect();
+
+        // Create explosion particles
+        for (let i = 0; i < 300; i++) {
+
+            const particle = document.createElement("div");
+            particle.classList.add("particle");
+
+            // Rainbow colors
+            const colors = [
+                "red",
+                "orange",
+                "yellow",
+                "lime",
+                "cyan",
+                "blue",
+                "violet"
+            ];
+
+            particle.style.background =
+                colors[Math.floor(Math.random() * colors.length)];
+
+            // Start at text position
+            particle.style.left =
+                rect.left + rect.width / 2 + "px";
+
+            particle.style.top =
+                rect.top + rect.height / 2 + "px";
+
+            document.body.appendChild(particle);
+
+            // Random direction
+            const angle = Math.random() * Math.PI * 2;
+            const distance = Math.random() * 300;
+
+            const x = Math.cos(angle) * distance;
+            const y = Math.sin(angle) * distance;
+
+            particle.animate(
+                [
+                    {
+                        transform: "translate(0px, 0px) scale(1)",
+                        opacity: 1
+                    },
+                    {
+                        transform:
+                            `translate(${x}px, ${y}px) scale(0)`,
+                        opacity: 0
+                    }
+                ],
+                {
+                    duration: 1800,
+                    easing: "cubic-bezier(0,.9,.57,1)",
+                    fill: "forwards"
+                }
+            );
+
+            // Remove particles
+            setTimeout(() => {
+                particle.remove();
+            }, 1800);
+        }
+
+        // Hide clicked rainbow text
+        this.style.opacity = "0";
+
+    });
+
+});
+</script>
 </body>
 </html>   
