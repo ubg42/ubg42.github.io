@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rainbow Text Generator</title>
+
+<style>
+body{
+    margin:0;
+    width:100vw;
+    height:100vh;
+    background:black;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+
+    overflow:hidden;
+    font-family:Arial, sans-serif;
+}
+
+.rainbow-text{
+    font-size:80px;
+    font-weight:bold;
+    text-align:center;
+
+    background: linear-gradient(
+        -90deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        violet,
+        red
+    );
+
+    background-size:400%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    animation:rainbow 8s linear infinite;
+}
+
+@keyframes rainbow{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position:400%;
+    }
+}
+
+input{
+    padding:12px 20px;
+    width:300px;
+
+    font-size:20px;
+
+    border:none;
+    border-radius:10px;
+
+    outline:none;
+
+    background:#111;
+    color:white;
+
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<input 
+    type="text" 
+    id="textInput" 
+    placeholder="Type Anything..."
+>
+
+<h1 class="rainbow-text" id="rainbowText">
+    Rainbow Text
+</h1>
+
+<script>
+const input = document.getElementById("textInput");
+const rainbowText = document.getElementById("rainbowText");
+
+input.addEventListener("input", () => {
+    rainbowText.textContent = input.value || "Rainbow Text";
+});
+</script>
+
+</body>
+</html>
