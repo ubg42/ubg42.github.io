@@ -118,11 +118,82 @@
         .button:hover {
       transform: scale(1.02);
     }
+	.rainbow-text{
+    font-size:16px;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+	    margin: 0;
+
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        violet,
+        red
+    );
+
+    background-size:400%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    animation:rainbow 8s linear infinite;
+}
+
+@keyframes rainbow{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position:400%;
+    }
+}
+	.rainbow-text-creator{
+    font-size:30px;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+	    margin: 0;
+      position: absolute;
+      top: 25px;
+      left: 1164px;
+      text-align: right;
+
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        violet,
+        red
+    );
+
+    background-size:400%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    animation:rainbow 8s linear infinite;
+}
+
+@keyframes rainbow{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position:400%;
+    }
+}
   </style>
   
 </head>
 <body>
 <header>
+	  <p class="rainbow-text-creator">Creator</p>
   <input type="text" id="searchBar" placeholder="Search games..." />
 
   <div onclick="openGame('https://forms.gle/SZ1iNBSfYcRhjkWU6', 'Google Docs')">
@@ -1255,6 +1326,7 @@
 	Creator Games
   </a>
 </p>
+<p class="rainbow-text">Luke</p>
 </footer>
 <script>
 function openGame(url, title) {
