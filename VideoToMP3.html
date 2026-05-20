@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video to MP3 Converter</title>
+
+<style>
+
+body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0f0f0f;
+    font-family:Arial, sans-serif;
+    color:white;
+}
+
+.container{
+    width:430px;
+    background:#1b1b1b;
+    padding:40px;
+    border-radius:24px;
+    text-align:center;
+    box-shadow:0 0 35px rgba(0,0,0,0.5);
+}
+
+h1{
+    margin-top:0;
+    font-size:34px;
+}
+
+p{
+    color:#b8b8b8;
+    margin-bottom:25px;
+}
+
+/* FILE UPLOAD */
+
+.file-upload{
+    position:relative;
+    width:100%;
+    margin:25px 0;
+}
+
+.file-upload input[type=file]{
+    display:none;
+}
+
+.file-label{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+
+    background:#262626;
+    border:2px dashed #555;
+    border-radius:18px;
+
+    padding:28px 20px;
+
+    cursor:pointer;
+
+    transition:0.25s;
+
+    font-size:17px;
+    color:#e6e6e6;
+}
+
+.file-label:hover{
+    border-color:#00d8aa;
+    background:#303030;
+    transform:scale(1.02);
+}
+
+.file-label span{
+    font-size:34px;
+}
+
+#fileName{
+    margin-top:12px;
+    font-size:14px;
+    color:#9f9f9f;
+}
+
+/* BUTTON */
+
+button{
+    background:#00b894;
+    border:none;
+    padding:15px 30px;
+    border-radius:14px;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#00d8aa;
+    transform:scale(1.05);
+}
+
+#status{
+    margin-top:22px;
+    font-size:15px;
+}
+
+/* BOTTOM TEXT */
+
+.bottom{
+    margin-top:32px;
+    font-size:13px;
+    color:#8b8b8b;
+    line-height:1.5;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Video → MP3</h1>
+
+    <p>
+        Supports MP4, MOV, AVI, MKV, WEBM and more.
+    </p>
+
+    <!-- CUSTOM FILE UPLOAD -->
+
+    <div class="file-upload">
+
+        <label for="videoInput" class="file-label">
+
+            <span>📺</span>
+
+            <div>
+                <div>Choose Video File</div>
+                <small>Click to upload</small>
+            </div>
+
+        </label>
+
+        <input
+            type="file"
+            id="videoInput"
+            accept="video/*"
+            onchange="showFileName()"
+        >
+
+        <div id="fileName">
+            No file selected
+        </div>
+
+    </div>
+
+    <!-- BUTTON -->
+
+    <button onclick="convertVideo()">
+        Convert to MP3
+    </button>
+
+    <!-- STATUS -->
+
+    <div id="status"></div>
+
+    <!-- BOTTOM TEXT -->
+
+    <div class="bottom">
+        Files are automatically deleted from our servers immediately after download for privacy and security.
+    </div>
+
+</div>
+
+<script>
+
+/* SHOW FILE NAME */
+
+function showFileName(){
+
+    const input = document.getElementById("videoInput");
+    const fileName = document.getElementById("fileName");
+
+    if(input.files.length){
+
+        fileName.innerHTML = input.files[0].name;
+
+    }else{
+
+        fileName.innerHTML = "No file selected";
+
+    }
+
+}
+
+/* CONVERT VIDEO */
+
+async function convertVideo(){
+
+    const input = document.getElementById("videoInput");
+    const status = document.getElementById("status");
+
+    if(!input.files.length){
+
+        status.innerHTML = "Please choose a video file.";
+        return;
+
+    }
+
+    const file = input.files[0];
+
+    status.innerHTML = "Uploading video...";
+
+    const formData = new FormData();
+    formData.append("video", file);
+
+    try{
+
+        const response = await fetch("/convert", {
+
+            method:"POST",
+            body:formData
+
+        });
+
+        if(!response.ok){
+
+            throw new Error("Conversion failed");
+
+        }
+
+        status.innerHTML = "Converting to MP3...";
+
+        const blob = await response.blob();
+
+        const downloadURL = window.URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+
+        a.href = downloadURL;
+
+        const cleanName = file.name.replace(/\.[^/.]+$/, "");
+
+        a.download = cleanName + ".mp3";
+
+        document.body.appendChild(a);
+
+        a.click();
+
+        a.remove();
+
+        // DELETE TEMP FILES
+
+        await fetch("/delete-temp-files", {
+
+            method:"POST"
+
+        });
+
+        status.innerHTML =
+            "Finished. File removed from server.";
+
+    }catch(err){
+
+        console.error(err);
+
+        status.innerHTML =
+            "Error converting file.";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
