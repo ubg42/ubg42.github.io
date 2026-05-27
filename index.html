@@ -742,7 +742,7 @@
 		<img src="https://ubg42.github.io/file/jellydad_hero.jpg" alt="Jellydad Hero">
 		<h3>Jellydad Hero</h3>
 	</div>
-	  	<div class="game-card" onclick="openGame('https://unblocked-games-onlines.github.io/u3/tag/', 'Google Docs')">
+	  	<div class="game-card" onclick="openGame('https://ubg42.github.io/Tag', 'Google Docs')">
 		<img src="https://gswitch3.github.io/imgs/tag.png" alt="Tag">
 		<h3>Tag</h3>
 	</div>
@@ -1321,6 +1321,26 @@
 		<div class="game-card" onclick="openGame('https://ubg42.github.io/SlopeWithCheats/', 'Google Docs')">
 		<img src="https://ubg42.github.io/SlopeWithCheats/SlopeWithCheats.jpg" alt="Slope with Cheats">
 		<h3>Slope with Cheats</h3>
+	</div>		
+	    <div class="game-card" onclick="openGame('https://ubg42.github.io/67/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/Level67.png" alt="Level 67">
+		<h3>Level 67</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/FlyThePlane/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/FlyThePlane.jpg" alt="Fly The Plane">
+		<h3>Fly The Plane</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/StealaBrainrot/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/StealABrainrot.png" alt="Steala Brainrot">
+		<h3>Steal a Brainrot</h3>
+	</div>
+		<div class="game-card" onclick="openGame('https://ubg42.github.io/StickWar/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/StickWar.jpg" alt="Stick War">
+		<h3>Stick War</h3>
+	</div>
+    <div class="game-card" onclick="openGame('https://ubg42.github.io/Spiral-Roll1/', 'Google Docs')">
+		<img src="https://ubg42.github.io/img/SpiralRoll.jpg" alt="Spiral Roll">
+		<h3>Spiral Roll</h3>
 	</div>
 </div>
 
@@ -1842,7 +1862,7 @@ if (query === "secret") {
       "https://play.unity.com/api/v1/games/game/5246a951-75b0-40e4-ab5a-ca531614f76b/build/latest/frame",
       "https://tataedu23.github.io/g72/class-625/",
       "https://ubg42.github.io/file/jellydad_hero.html",
-      "https://unblocked-games-onlines.github.io/u3/tag/",
+      "https://ubg42.github.io/Tag/",
       "https://dnrweqffuwjtx.cloudfront.net/games/2024/code/6/get-on-top/index.html",
       "https://tataedu23.github.io/g68/class-1128",
       "https://tataedu23.github.io/g50/class-6",
@@ -1998,7 +2018,12 @@ if (query === "secret") {
 	  "https://ubg42.github.io/Retro/",
 	  "https://ubg42.github.io/file/Duck_Life_5.html",
 	  "https://ubg42.github.io/file/Bartender_The_Right_Mix.html",
-	  "https://ubg42.github.io/SlopeWithCheats/"	 
+	  "https://ubg42.github.io/SlopeWithCheats/",
+	  "https://ubg42.github.io/Level67/",
+	  "https://ubg42.github.io/FlyThePlane/",
+	  "https://ubg42.github.io/StealaBrainrot/",
+	  "https://ubg42.github.io/StickWar/",
+	  "https://ubg42.github.io/Spiral-Roll1/"	 
 
 
     ];
@@ -2091,5 +2116,50 @@ document.querySelectorAll(".rainbow-text, .rainbow-text-creator").forEach(text =
 
 });
 </script>
+<script>
+const rainbowElements = document.querySelectorAll(
+    '.rainbow-text, .rainbow-text-creator, [class*="rainbow-text"]'
+);
+
+rainbowElements.forEach(text => {
+
+    text.style.cursor = "pointer";
+
+    let clicked = false;
+
+    text.addEventListener("click", () => {
+
+        // stop THIS text from being clicked again
+        if (clicked) return;
+
+        clicked = true;
+
+        // disable only this one
+        text.style.pointerEvents = "none";
+        text.style.cursor = "default";
+
+        // disappear effect
+        text.classList.add("disappear");
+    });
+
+});
+</script>
+<style>
+.disappear{
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish{
+    0%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    100%{
+        opacity:0;
+        transform:scale(0);
+    }
+}
+</style>
 </body>
 </html>   
