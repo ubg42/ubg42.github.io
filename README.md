@@ -586,6 +586,16 @@ https://ubg42.github.io/file/Bartender_The_Right_Mix.html
 
 https://ubg42.github.io/SlopeWithCheats/
 
+https://ubg42.github.io/Level67/
+
+https://ubg42.github.io/FlyThePlane/
+
+https://ubg42.github.io/StealaBrainrot/
+
+https://ubg42.github.io/StickWar/
+
+https://ubg42.github.io/Spiral-Roll1/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
