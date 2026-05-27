@@ -596,6 +596,10 @@ https://ubg42.github.io/StickWar/
 
 https://ubg42.github.io/Spiral-Roll1/
 
+https://ubg42.github.io/67Clicker/
+
+https://ubg42.github.io/DuneDash/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
