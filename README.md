@@ -612,6 +612,10 @@ https://ubg42.github.io/FortzoneBattleRoyale/
 
 https://ubg42.github.io/RooftopRun/
 
+https://ubg42.github.io/youtube-playables/texas-holdem/
+
+https://ubg42.github.io/BlackJack/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
