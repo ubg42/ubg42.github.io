@@ -612,9 +612,15 @@ https://ubg42.github.io/FortzoneBattleRoyale/
 
 https://ubg42.github.io/RooftopRun/
 
-https://ubg42.github.io/youtube-playables/texas-holdem/
+https://ubg42.github.io/BlumgiMerge/
 
-https://ubg42.github.io/BlackJack/
+https://ubg42.github.io/BlumgiSoccer/
+
+https://ubg42.github.io/BlumgiBounce/
+
+https://ubg42.github.io/BlumgiRacers/
+
+https://ubg42.github.io/BlumgiPaintball/
 
 FOR THE GAMES!!!!!!
 
