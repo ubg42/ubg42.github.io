@@ -626,6 +626,8 @@ https://bit.ly/BoostRoulette
 
 https://ubg42.github.io/html5/CannonBalls3D.html
 
+https://ubg42.github.io/EndlessTruck/
+
 FOR THE GAMES!!!!!!
 
 Creadits to all the [Scratch](https://scratch.mit.edu/) games and [Flash](https://poki.com/en/flash) games
