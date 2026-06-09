@@ -199,14 +199,16 @@
 }
 
     .mc-text {
-        font-family: 'Press Start 2P', monospace;
-        font-size: 24px;
+        font-family: "Pixelify Sans", sans-serif;
+		  font-optical-sizing: auto;
+        font-size: 16px;
         color: #ffff00;
 		display: inline-block;
 		position: absolute;
-        left: 1000px;   /* move horizontally */
+        left: 1020px;   /* move horizontally */
         top: 35px;    /* move vertically */
 		white-space: nowrap;
+		  font-style: normal;
 
 
         text-shadow: 1px 1px 0 #000;
@@ -252,7 +254,7 @@
   </div>
 
   <button onclick="openRandom()" class="button">🎮 Play Random Game</button>
-<div class="mc-text">There is 300 Games!</div>
+<div class="mc-text">There is 300 Games, I Checked!</div>
 </header>
 <div class="game-grid" id="gameGrid">
     <div class="game-card" onclick="openGame('https://fridaynight-funkin.github.io/f6/stickman-bike/', 'Google Docs')">
