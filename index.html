@@ -54,7 +54,7 @@
       text-decoration: underline;
       position: absolute;
       top: 5px;
-      left: 700px;
+      left: 660px;
       text-align: right;
 	  cursor: pointer;
     }
@@ -197,12 +197,54 @@
     pointer-events: none;
     z-index: 999999;
 }
+
+    .mc-text {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 24px;
+        color: #ffff00;
+		display: inline-block;
+		position: absolute;
+        left: 1000px;   /* move horizontally */
+        top: 35px;    /* move vertically */
+		white-space: nowrap;
+
+
+        text-shadow: 1px 1px 0 #000;
+
+        /* start tilted */
+        transform: rotate(-15deg);
+
+        animation: splash 1.2s infinite ease-in-out;
+    }
+
+    /* Minecraft-style splash wobble */
+    @keyframes splash {
+        0% {
+            transform: rotate(-15deg) scale(0.95) translateY(0px);
+        }
+
+        25% {
+            transform: rotate(-15deg) scale(1.15) translateY(0px);
+        }
+
+        50% {
+            transform: rotate(-15deg) scale(0.95) translateY(0px);
+        }
+
+        75% {
+            transform: rotate(-15deg) scale(1.2) translateY(0px);
+        }
+
+        100% {
+            transform: rotate(-15deg) scale(0.95) translateY(0px);
+        }
+    }
   </style>
   
 </head>
 <body>
 <header>
-	  <p class="rainbow-text-creator">Creator</p>
+	  <p class="rainbow-text-creato">Creator</p>
   <input type="text" id="searchBar" placeholder="Search games..." />
 
   <div onclick="openGame('https://forms.gle/SZ1iNBSfYcRhjkWU6', 'Google Docs')">
@@ -210,6 +252,7 @@
   </div>
 
   <button onclick="openRandom()" class="button">🎮 Play Random Game</button>
+<div class="mc-text">There is 300 Games!</div>
 </header>
 <div class="game-grid" id="gameGrid">
     <div class="game-card" onclick="openGame('https://fridaynight-funkin.github.io/f6/stickman-bike/', 'Google Docs')">
