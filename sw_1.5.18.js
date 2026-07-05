@@ -18,6 +18,8 @@ self.addEventListener('fetch', function(event) {
     
    const url = event.request.url;
 
+   
+
    const doNotCache = skipList.some(d=>url.indexOf(d)>=0)
 
    if(doNotCache){
