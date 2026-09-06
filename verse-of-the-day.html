@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Verse of The Day</title>
+    <link rel="shortcut icon" href="bible.png">
+  <style>
+  body {
+    margin: 0;
+    background: transparent;
+  }
+
+  .verse-container {
+    width: 550px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .verse-container iframe {
+    position: absolute;
+    width: 360px;
+    height: 5000px;
+    top: -480px;
+    left: 0;
+    border: none;
+    pointer-events: none;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="verse-container">
+  <iframe
+    src="https://www.bible.com/verse-of-the-day"
+    scrolling="no">
+  </iframe>
+</div>
+
+</body>
+</html>
