@@ -1993,18 +1993,29 @@ searchBar.addEventListener("input", function () {
   const query = normalize(searchBar.value);
 
 
-  // Filter game cards
-  gameCards.forEach((card) => {
-    const title = normalize(card.querySelector("h3").textContent);
-    if (triggers[query]) {
-      card.style.display = triggers[query].includes(title) ? "" : "none";
-    } else {
-      card.style.display = title.includes(query) ? "" : "none";
-    }
-  });// SECRET GAMES
-if (query === "gunblood") {
 
-  const grid = document.getElementById("gameGrid");
+// Filter game cards
+gameCards.forEach((card) => {
+  const title = normalize(card.querySelector("h3").textContent);
+
+  if (triggers[query]) {
+    card.style.display = triggers[query].includes(title) ? "" : "none";
+  } else {
+    card.style.display = title.includes(query) ? "" : "none";
+  }
+});
+
+const grid = document.getElementById("gameGrid");
+
+// Remove old secret cards first
+["secret1", "secret2", "secret3"].forEach(id => {
+  const old = document.getElementById(id);
+  if (old) old.remove();
+});
+
+// SECRET GAMES
+
+if (query === "gunblood") {
 
   const secrets = [
     {
@@ -2022,32 +2033,52 @@ if (query === "gunblood") {
   ];
 
   secrets.forEach(game => {
-    if (!document.getElementById(game.id)) {
+    const card = document.createElement("div");
+    card.className = "game-card";
+    card.id = game.id;
 
-      const card = document.createElement("div");
-      card.className = "game-card";
-      card.id = game.id;
+    card.innerHTML = `
+      <img src="${game.img}" alt="${game.name}">
+      <h3>${game.name}</h3>
+    `;
 
-      card.innerHTML = `
-        <img src="${game.img}" alt="${game.name}">
-        <h3>${game.name}</h3>
-      `;
+    card.onclick = function () {
+      openGame(game.url, "Google Docs");
+    };
 
-      card.onclick = function () {
-        openGame(game.url, "Google Docs");
-      };
-
-      grid.appendChild(card); // keeps the order
-    }
+    grid.appendChild(card);
   });
 
-} else {
+}
 
-  ["secret1","secret2","secret3"].forEach(id => {
-    const old = document.getElementById(id);
-    if (old) old.remove();
-  });
+if (query === "granny") {
 
+  const grid = document.getElementById("gameGrid");
+
+  const game = {
+    id: "secret3",
+    name: "Granny",
+    img: "https://ubg42.github.io/img/Granny.jpg",
+    url: "https://ubg42.github.io/GrannyWeb/"
+  };
+
+  if (!document.getElementById(game.id)) {
+
+    const card = document.createElement("div");
+    card.className = "game-card";
+    card.id = game.id;
+
+    card.innerHTML = `
+      <img src="${game.img}" alt="${game.name}">
+      <h3>${game.name}</h3>
+    `;
+
+    card.onclick = function () {
+      openGame(game.url, "Google Docs");
+    };
+
+    grid.appendChild(card);
+  }
 }
 
   // Change background based on trigger
