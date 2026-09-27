@@ -11,7 +11,7 @@
     body {
       margin: 0;
       font-family: sans-serif;
-      background-image: url("galaxy.jpg");
+      background-image: url('Grey.png');
       overflow-y: auto;
     }
       .g-recaptcha {
@@ -22,7 +22,7 @@
            /* Required if you want to center on the whole page */
 }
     header {
-      background: #007fff;
+      background: #383838;
       padding: 10px 20px;
       color: white;
       position: relative;
@@ -91,7 +91,7 @@
     }
 
     footer {
-      background: #007fff;
+      background: #383838;
       color: white;
       text-align: center;
       padding: 15px 20px;
@@ -110,7 +110,7 @@
       font-size: 2px;
       border: 2px solid white;
       border-radius: 10px;
-      background: #0078ff;
+      background: #383838;
       color: white;
       cursor: pointer;
       transition: 0.3s;
@@ -248,10 +248,25 @@
 <body>
 <header>
 	  <p class="rainbow-text-creato">Creator</p>
-  <input type="text" id="searchBar" placeholder="Search Games..." />
+<input id="searchBar" type="text" placeholder="Search...">
 
-  <div onclick="openGame('https://forms.gle/L6TiV54b4LZksLsz8', 'Google Docs')">
-    <h1 class="form">Vote For The Site!!</h1>
+<style>
+#searchBar {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 9px;
+}
+
+#searchBar::placeholder {
+  color: #aaa;
+}
+</style>
+
+
+  <div onclick="openGame('https://forms.gle/GR9hhSAvZJXXrHX29', 'Google Docs')">
+    <h1 class="form"> Report Problem/Game Suggestion</h1>
   </div>
 
   <button onclick="openRandom()" class="button">🎮 Play Random Game</button>
@@ -1974,7 +1989,7 @@ const triggers = {
   };
 
 const backgrounds = {
-  default: 'url("galaxy.jpg")',
+  default: 'url("Grey.png")',
   bails: 'url("yellow.jpg")',
   jm: 'url("e.png")',
   jk: 'url("e.png")',
